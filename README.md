@@ -68,3 +68,22 @@ As a user I would like to :
 >- view delivery information.
 >- access contact information and contact the organization.
 >- find their location.
+>- learn of their presence on social media.
+
+### Design
+#### Structure
+
+The site will be made up of three pages with one section
+per page, all pages will have a 'sticky' navigation bar and a footer.
+
+The home page will consist of a brief introduction of the 
+business, the services available, some links to current products
+and the premise location.
+
+The second page will be a gallery of current products in stock with some pricing information.
+there will be a feature to quick search through the products.
+
+The third page will provide contact information, the premise location and a contact form.
+
+#### Wireframes
+A mock up of how the site will be layed out is available here via [Wire Frames](assets/wireframes.pdf
