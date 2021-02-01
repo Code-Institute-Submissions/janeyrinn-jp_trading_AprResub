@@ -86,4 +86,17 @@ there will be a feature to quick search through the products.
 The third page will provide contact information, the premise location and a contact form.
 
 #### Wireframes
-A mock up of how the site will be layed out is available here via [Wire Frames](assets/wireframes.pdf
+A mock up of how the site will be layed out is available here via [Wire Frames](TBC).
+
+#### Color Scheme
+![Color Swatch](TBC)
+The above color swatch shows a guide line for the color scheme of the site, 
+Colors are brand colours which have been adopted for the following reasons:
+
+Color | Consumer Association
+------|---------------------
+Black | stability, confidence
+Yellow| logical, cheerful
+
+This colour combination is a classic pairing used in by many well known brands and therefore
+instils a sense of establishment and reliabilty in the subconscious of the consumer by association. 
