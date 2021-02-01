@@ -1,45 +1,70 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# JP TRADING LTD
 
-Welcome USER_NAME,
+![Logo](assets/images/jp_trading_logo.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Code Institute, Diploma in Full Stack Software Development,
+Milestone Project 2, March 2020.
 
-## Gitpod Reminders
+# Table of Contents 
+1. [Strategic Purpose](#strategic-purpose)
+    * [Design Simulation](#design-simulation)
+2. [User Experience Design](#user-experience-design)
+   * [User Stories](#user-stories)
+    *  [Design](#design)
+        * [Structure](#structure)
+        * [Wireframes](#Wireframes)
+        * [Color Scheme](#color-scheme)
+        * [Typography](#typography)
+        * [Imagery](#imagery)
+        * [Design Limitations](#design-limitations)
+        * [Design Differences](#design-differences)
+3. [Features](#features)
+4. [Technologies](#technologies)
+5. [Testing](#testing)
+    * [Funtionality and Features](#Funtionality-and-Features)
+    * [User Stories Test](#User-Stories-Test)
+    * [Strategic Purpose Test](#Strategic-Purpose-Test)
+    * [Bugs and Fixes](#Bugs-and-Fixes)
+    * [Testing Limitations](#Testing-Limitations)
+6. [Deployment](#deployment)
+    * [Deployment via GitHub Pages](#Deployment-via-GitHub-Pages)
+    * [Making a Clone in GitPod](#Making-a-Clone-in-GitPod)
+7. [Credits](#credits)
+    * [Images](#Images)
+    * [Content](#Content)
+    * [Color Psychology](#Color-Psychology)
+    * [Code](#Code)
+    * [Acknowledgements](#Acknowledgements)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Strategic Purpose
+This website is created to be a landing space for consumers searching for certain products in the Midleton area.
+The site will be a marketing tool to promote products on sale, offer contact information/location and
+provide a means of contacting the business.
 
-`python3 -m http.server`
+It should be an asset to the business to increase growth,
+while also being of value to the consumer and improving their consumer experience.
 
-A blue button should appear to click: *Make Public*,
+Features are to showcase products on sale, allow enquiries and offer consumers a means of contacting
+the business while also developing sales leads for the business owner.
 
-Another blue button should appear to click: *Open Browser*.
+Content should be clear, informative and adapted for screen readers so it is accessible for all.
+The site is to be responsive on multiple devices, while being easy and enjoyable to navigate through. 
+Creating a positive user experience for customers that they will return to again and again.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# Design Simulation
 
-A blue button should appear to click: *Make Public*,
+## User Experience Design
 
-Another blue button should appear to click: *Open Browser*.
+### User Stories
+#### First Time and Returning Visitor Goals
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+As a user I would like to :
+>- easily understands the main purpose and navigation pathways of the site.
+>- find information is clearly presented and easily absorbed with minimal effort.
+>- find that features load quickly.
+>- find that features are adapted to my devices screen size.
+>- learn more about the companies' products and their pricing structure.
+>- search a list of available products.
+>- view delivery information.
+>- access contact information and contact the organization.
+>- find their location.
