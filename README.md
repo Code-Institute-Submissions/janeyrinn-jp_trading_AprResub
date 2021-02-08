@@ -276,4 +276,3 @@ photographers and sources please see the [credits](#credits) section.
 3. [JS Hint](https://jshint.com/) used to validate JavaScript code.
 
 
-. 
