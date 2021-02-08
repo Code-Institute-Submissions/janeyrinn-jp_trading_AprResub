@@ -6,10 +6,11 @@ Code Institute, Diploma in Full Stack Software Development,
 Milestone Project 2, March 2020.
 
 # Table of Contents 
-1. [Strategic Purpose](#strategic-purpose)
+1. [Overview](#overview)
     * [Design Simulation](#design-simulation)
 2. [User Experience Design](#user-experience-design)
    * [User Stories](#user-stories)
+   * [Business Objective](#business-objective)
     *  [Design](#design)
         * [Structure](#structure)
         * [Wireframes](#Wireframes)
@@ -36,21 +37,19 @@ Milestone Project 2, March 2020.
     * [Code](#Code)
     * [Acknowledgements](#Acknowledgements)
 
-## Strategic Purpose
-This website is created to be a landing space for consumers searching for certain products in the Midleton area.
+## Overview
+JP Trading is family owned business selling fire fuels, aggregates and garden furniture in the East Cork area
+of Ireland over the last 8 years.
+Currently they have no online presence and would like to establish themselves online to increase growth/retention
+of customers and keep up to date with industry standards. 
+
+This website is created to be a landing space for consumers searching for the above mentioned products in the 
+Midleton and East Cork area.
 The site will be a marketing tool to promote products on sale, offer contact information/location and
 provide a means of contacting the business.
 
 It should be an asset to the business to increase growth,
 while also being of value to the consumer and improving their consumer experience.
-
-Features are to showcase products on sale, provide the location and contact information,
-allow enquiries and offer consumers a means of contacting
-the business while simultaniously developing sales leads for the business owner.
-
-Content should be clear, informative and adapted for screen readers so it is accessible for all.
-The site is to be responsive on multiple devices, features should support intuitive learning while being easy and enjoyable to navigate through. 
-Creating a positive user experience for customers that they will return to again and again.
 
 ### Design Simulation
 A simulation of the website on desktop and mobile devices can be seen below.
@@ -58,17 +57,33 @@ A simulation of the website on desktop and mobile devices can be seen below.
 ## User Experience Design
 
 ### User Stories
-#### First Time and Returning Visitor Goals
 
-As a user I would like to :
->- easily understands the main purpose and navigation pathways of the site.
->- find information is clearly presented and easily absorbed with minimal effort.
->- find that features load quickly.
->- find that features are adapted to my devices screen size.
->- learn more about the company, its products and its pricing structure.
->- search a list of available products.
->- access contact information and contact the organization.
->- find their location.
+| **As a First Time and Returning I would like to** : |  **So that I can**  : |
+| ------------- |:-------------:|
+| easily understand the main purpose of the site | determine if it is what I need |
+| use an aesthetically pleasing site| enjoy my user experience |
+| easily navigate the site| quickly find what I need |
+| find information is clearly presented | absorb it with minimal effort |
+| have features load quickly | save time |
+| view the site on different screen sizes| use it at home or on the go |
+| learn about the company background/offering| assess whether it is suitable for my needs/something I would like to support | 
+| search a list of available products| can save time scrolling and easily find what I need|
+| calculate a quick quote | quickly assess if the product is good value & cut down on talk time with a sales person | 
+| find the trading hours| assess whether they suit my availability |
+| find contact information | call or save it for use later |
+| contact the business on their platform | save time copying email addresses or opening another platform |
+| find their location | plan a trip to visit the store or asses if they are suitable suppliers |
+
+### Business Objective
+
+| **As the business owner I would like the site to** : |  **So that**  : |
+| ------------- |:-------------:|
+| Increase our visibility | we can promote sales growth|
+| Show case our products & services | we can increase sales and consumer awareness|
+| Be adapted to screen readers| we do not discriminate and optimise catchment|
+| Be easy and enjoyable to use| it will create a good impression of the business, increase usage time and return visits|
+| Provide a quoting service| we can cut down on calls & administration|
+| Provide a  structured means of contact| to reduce calls|
 
 ### Design
 #### Structure
@@ -91,6 +106,7 @@ The third page will provide contact information, the premise location and a cont
 
 #### Wireframes
 A mock up of how the site will be layed out is available here via ![Wire Frames](assets/read_me/wire_frames.pdf).
+*Please note: To open any links in this document in a new browser tab, please press `CTRL + Click`.*
 
 #### Color Scheme
 ![Color Swatch](assets/read_me/color_swatch.png)
@@ -133,4 +149,6 @@ photographers and sources please see the [credits](#credits) section.
 #### Design Differences from Conception
 
 ## Features
+
+
 
