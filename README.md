@@ -238,6 +238,42 @@ photographers and sources please see the [credits](#credits) section.
         - The footer will be black with white text.
         - The footer text will display copywrite information.
 
+ ## Technologies
+
+ ### Languages
+
+ - [HTML5](https://www.w3schools.com/html/html_intro.asp)
+ - [CSS3](https://www.w3schools.com/css/css_intro.asp)
+ - [JavaScript](https://www.w3schools.com/js/js_intro.asp)
+
+ ### Frameworks & Libraries
+
+  1. [Balsamiq](https://balsamiq.com/) Used to create wireframes/mock-up during the planning & design process. 
+  2. [Git Hub](https://github.com/about) Used to store, version control and share the projects code.
+  2. [Git/GitPod](https://www.gitpod.io/#:~:text=Gitpod%20is%20a%20multi%2Dservice,their%20own%20dedicated%20K8s%20deployment.) Code, build, debug and run K8s applications entirely in the cloud.
+  3. [Bootstrap](https://getbootstrap.com/) Used for responsivness and styling of the site.
+  4. [JQuery](https://jquery.com/)Javascript library
+  5. [Google Fonts](https://fonts.google.com/) Used to import fonts.
+  6. [Font Awesome](https://fontawesome.com/v4.7.0/) Used for icons.
+
+### Programmes & Tools
+
+  1. [Canva](https://www.canva.com/) For creation of the logo.
+  2. [Adobe Color Wheel](https://color.adobe.com/create/image-gradient) Image gradient feature was used to extract colors used in the logo and build a colour scheme.
+  3. [Am I Responsive](http://ami.responsivedesign.is/) Used to check responsivity of code and display the mock up in the documentation.
+  4. [MicroSoft Sniping Tool](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b) Used for various images, such as the color swatch and
+        extraction of usedful information for my project drafts and plans.
+  5. [TinyJPG](https://tinyjpg.com/)For resizing images to decrease loading time.
+  6. [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) Used to test and optimize the site.
 
 
+## Testing
 
+### Code Validity
+
+1. [W3C](https://validator.w3.org/) used to validate HTML code.
+2. [W3c Jigsaw](https://jigsaw.w3.org/css-validator/) used to validate CSS code.
+3. [JS Hint](https://jshint.com/) used to validate JavaScript code.
+
+
+. 
