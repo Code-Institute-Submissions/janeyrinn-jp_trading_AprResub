@@ -88,24 +88,36 @@ A simulation of the website on desktop and mobile devices can be seen below.
 ### Design
 #### Structure
 
+**Skeleton**
 The site will be made up of three pages with one main section
-per page, all pages will have a 'sticky' navigation bar and a small copyright footer.
+per page, all pages will have a 'sticky' navigation bar at the top and a small copyright footer.
 
-The home page will consist of a large hero image with an animated text introduction of the 
+**Information Architecture**
+The home page will consist of a large hero image with a text introduction of the 
 business. This will describe the business and the services available. Icons traditionally
 associated with the services offered will be displayed lower down and will reinforce
-this information allowing the information to be easily assimilated by the user. Icons when clicked
-will display descriptive text.
+this information allowing the information to be easily assimilated by the user. 
 
 The second page will be a gallery of current products in stock with some pricing information.
-there will be a feature to quick search through the products. A call to action alert will be created
-if an item is found in the search. This call to action will link the user to the contact the business 
-for a quick quote. 
+There will be a feature to quick search through the products. A call to action alert will be created
+if an item is found in the search. This call to action will link the user to the contact the business. 
 
 The third page will provide contact information, the premise location and a contact form.
 
+**Interaction Design**
+The navigation bar will highlight on hover and active status.
+
+The text introduction on the home page will be animated, similar to a carosel, with short paragraphs 
+of information. Icons on the homepage will display discriptive text when clicked.
+
+The user will be able to interact with the data on the second page by searching through the products available
+and calculate a quote for some items.
+
+On the third page the user will be able to send an email to the business and view the location of its premise.
+A confirmation message will display when the email has been sent successfully or an error if unsuccessfull.
+
 #### Wireframes
-A mock up of how the site will be layed out is available here via ![Wire Frames](assets/read_me/wire_frames.pdf).
+A mock up of how the site will be layed out is available here via [Wire Frames](assets/read_me/wire_frames.pdf).
 *Please note: To open any links in this document in a new browser tab, please press `CTRL + Click`.*
 
 #### Color Scheme
@@ -117,6 +129,7 @@ Color | Consumer Association
 ------|---------------------
 Black | stability, confidence
 Yellow| logical, cheerful
+Browns| resilience, dependability, security, and safety.
 
 This colour combination is a classic pairing used in by many well known fire fuel brands and therefore
 instils a sense of brand establishment and reliabilty in the subconscious of the consumer by association with
@@ -124,12 +137,16 @@ well known brands.
 
 #### Typography
 
-The Sintony font, created by Eduardo Rodriguez Tunn for Google fonts will be the main font for the company name 
-and for headings. Its slightly square and smooth structure lends well to bolder headings, 
+The Sintony font, created by *Eduardo Rodriguez Tunn* for [Google Fonts](https://fonts.google.com/) will be the main font for the company name 
+and for headings, alternating between regular and bold. Its slightly square and smooth structure lends well to bolder headings, 
 demanding the readers attention.
 
-Montserrat which is designed by Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly and also 
-available on google fonts, will be the secondary font used for the main body of text and sub headings. 
+![Heading Font](assets/read_me/heading_font.png)
+
+Montserrat which is designed by *Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly* and also 
+available on Google Fonts, will be the secondary font used for the main body of text and sub headings. 
+
+![Body Font](assets/read_me/body_font.png)
 
 Sans Serif will be the fallback font if for any reason the main fonts are not being imported 
 or displayed correctly. Sintony is a variation of Sans Serif, if the chosen font should
