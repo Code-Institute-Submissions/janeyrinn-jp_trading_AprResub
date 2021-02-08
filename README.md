@@ -89,10 +89,12 @@ A simulation of the website on desktop and mobile devices can be seen below.
 #### Structure
 
 **Skeleton**
+
 The site will be made up of three pages with one main section
 per page, all pages will have a 'sticky' navigation bar at the top and a small copyright footer.
 
 **Information Architecture**
+
 The home page will consist of a large hero image with a text introduction of the 
 business. This will describe the business and the services available. Icons traditionally
 associated with the services offered will be displayed lower down and will reinforce
@@ -105,6 +107,7 @@ if an item is found in the search. This call to action will link the user to the
 The third page will provide contact information, the premise location and a contact form.
 
 **Interaction Design**
+
 The navigation bar will highlight on hover and active status.
 
 The text introduction on the home page will be animated, similar to a carosel, with short paragraphs 
@@ -118,6 +121,7 @@ A confirmation message will display when the email has been sent successfully or
 
 #### Wireframes
 A mock up of how the site will be layed out is available here via [Wire Frames](assets/read_me/wire_frames.pdf).
+
 *Please note: To open any links in this document in a new browser tab, please press `CTRL + Click`.*
 
 #### Color Scheme
@@ -156,16 +160,83 @@ Both fonts are easily readable with strong straight lines which should be easily
 
 #### Imagery
 Branding is an important design and marketing tool for establishing your business in the mind of the user.
-a logo was created using [canva.com](https://www.canva.com/). Consistant imagery inline with the businesses
+A logo was created using [canva.com](https://www.canva.com/). Consistant imagery inline with the businesses
 offering was used through out the site to reinforce that brand identity and convey the business offering 
 intuitively. Images were sourced from open source sites or were provided by JP.Trading. For a detailed list of 
 photographers and sources please see the [credits](#credits) section.
 
 #### Design Limitations
 
+!!!!(TBA)!!!
+
 #### Design Differences from Conception
 
+!!!!(TBA)!!!
+
 ## Features
+
+## Features
+ 1. Responsive to different screen sizes.
+ 2. Supported by Chrome, Microsoft Edge and Firefox browsers.
+ 3. Adapted for users with special accessibility requirements where possible.
+ 4. There will be three pages: Home page, Browse products page and a contact page.
+
+        - Each page will have a navigation header.
+        - Each page will have a footer.
+        - Each page will have a favicon on the browser tab.
+
+ 5. Each page will have a 'sticky' nav bar.
+
+        - Navbar will be black with white text.
+        - The nav bar will have a company name logo on the left and menu options to the right.
+        - The logo will always link to the home page when clicked.
+        - The active page will be emphasized with a heavier font weight in the nav menu, inactive pages will have a lighter font weight.
+        - Menu items will underline from center when hovered over.
+        - On mobile devices the menu items will switch to a toggle button and a dropdown.
+        - The menu items will have the same styling in the drop down.
+        
+ 6. The home page will have:
+
+        - A hero image.
+        - Animated informative text.
+        - Interactive icons.
+        - A call to action.
+
+7. The Browse Products page will have:
+
+        - A search bar.
+        - Cards displaying product images and text.
+        - A quick quote calculator.
+        - A background image.
+
+8. The Contact Page will have:
+
+        - A google map API.
+        - An email API.
+        - Informative text.
+        - A confirmation or error alert for the contact form.
+
+9. The Contact Form wil have:
+
+        - The form will be grey with white fields and white button.
+        - A name, email and text area input.
+        - All inputs will be mandatory and display an error message if a field is missing on submission.
+        - The border wil be black and of a 1-2px weight when hovered over.
+        - The submission button will have a Send it! value.
+        - The button will be yellow with black text on hover.
+
+10. The Search Bar will be:
+        - Yellow with black text and a white text input space.
+        - Have a drop down to select from as a user types.
+
+11. The Quote Calculator will have:
+        - TBA!!!!!!!!
+
+12. The footer will have:
+
+        - The footer will be black with white text.
+        - The footer text will display copywrite information.
+
 
 
 
