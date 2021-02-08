@@ -175,7 +175,6 @@ photographers and sources please see the [credits](#credits) section.
 
 ## Features
 
-## Features
  1. Responsive to different screen sizes.
  2. Supported by Chrome, Microsoft Edge and Firefox browsers.
  3. Adapted for users with special accessibility requirements where possible.
@@ -226,10 +225,12 @@ photographers and sources please see the [credits](#credits) section.
         - The button will be yellow with black text on hover.
 
 10. The Search Bar will be:
+
         - Yellow with black text and a white text input space.
         - Have a drop down to select from as a user types.
 
 11. The Quote Calculator will have:
+
         - TBA!!!!!!!!
 
 12. The footer will have:
