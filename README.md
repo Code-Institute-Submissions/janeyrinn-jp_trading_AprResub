@@ -266,6 +266,9 @@ photographers and sources please see the [credits](#credits) section.
   5. [TinyJPG](https://tinyjpg.com/)For resizing images to decrease loading time.
   6. [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) Used to test and optimize the site.
 
+### Sources
+
+1. [MDN Web Docs](https://developer.mozilla.org/) Genreal source of information for structure and styling.
 
 ## Testing
 
@@ -276,3 +279,13 @@ photographers and sources please see the [credits](#credits) section.
 3. [JS Hint](https://jshint.com/) used to validate JavaScript code.
 
 
+## Deployment
+
+## Credits
+
+### Images 
+
+Credits to the following photographers and open source platforms for use and supply of their images.
+
+1. Hero images on the Landing page was taken by user [ilaria88](https://www.pexels.com/@ilaria88-32645?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) 
+at pexels.com .
