@@ -12,7 +12,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Sintony, sans-serif;
+    font-family: 'Sintony', sans-serif;
     font-weight: 700;
 }
 
@@ -53,9 +53,76 @@ a.nav-link.hvr-underline-from-center::before {
 .hero-img {
     background: rgba(0,0,0,0.5) url(images/hero_image.jpg) no-repeat;
     background-position: center;
-    background-size: cover;
     min-height: 100vh;
     overflow: hidden;
     background-blend-mode: overlay;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-/* The above class rule was learned from Learn Design channel tutorial on YouTube*/
+/* Some of the above class rule was learned from Learn Design channel tutorial on YouTube & customized*/
+
+.intro {
+    max-width: 55%;
+    padding: 200px 80px 0;
+    color: white;
+    bottom: 100px;
+    right: 120px;
+    position: absolute;
+    padding: 10px;
+}
+
+.intro h1 {
+    font-size: 100px;
+    color: rgba(255, 255, 255,0.9);
+    z-index: 1;
+    padding: 10px;
+}
+
+.intro p {
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 300;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 600px) { /*Changes font size on smaller mobile screens 600px and below*/
+    .intro {
+    bottom: 40px;
+    right: 120px;
+}
+    .intro h1 {
+    font-size: 50px;
+}
+}
+
+@media only screen and (min-width: 600px) { /* "..." screens 600px and up*/
+    .intro h1 {
+    font-size: 60px;
+    color: rgba(255, 255, 255,0.9);
+    z-index: 1;
+}
+.intro p {
+    font-size: 25px;
+    font-weight: 300;
+    z-index: 1;
+}
+}
+
+@media only screen and (min-width: 768px) { /* "..." screen sizes 768 & up*/
+    .intro {
+    bottom: 300px;
+    right: 20px;
+}
+}
+
+@media only screen and (min-width: 992px) { /* "..." screen sizes 992 & up*/
+        .intro {
+    bottom: 700px;
+    right: 20px;
+}
+}
