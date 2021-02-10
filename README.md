@@ -287,5 +287,5 @@ photographers and sources please see the [credits](#credits) section.
 
 Credits to the following photographers and open source platforms for use and supply of their images.
 
-1. Hero images on the Landing page was taken by user [ilaria88](https://www.pexels.com/@ilaria88-32645?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) 
+1. Hero images on the landing page was taken by user [ilaria88](https://www.pexels.com/@ilaria88-32645?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) 
 at pexels.com .

@@ -51,7 +51,7 @@ a.nav-link.hvr-underline-from-center::before {
 /*----------------------------------------------------------LANDING PAGE*/
 
 .hero-img {
-    background: rgba(0,0,0,0.5) url(images/hero_image.jpg) no-repeat;
+    background: rgba(0,0,0,0.2)url(images/hero_image.jpg) no-repeat;
     background-position: center;
     min-height: 100vh;
     overflow: hidden;
@@ -77,52 +77,74 @@ a.nav-link.hvr-underline-from-center::before {
 }
 
 .intro h1 {
-    font-size: 100px;
-    color: rgba(255, 255, 255,0.9);
     z-index: 1;
     padding: 10px;
 }
 
 .intro p {
-    font-size: 25px;
     padding: 10px;
     font-weight: 300;
     z-index: 1;
 }
 
-@media only screen and (max-width: 600px) { /*Changes font size on smaller mobile screens 600px and below*/
+/*The below media queries will make the intro text responsive to varied screen sizes*/
+
+@media only screen and (max-width: 600px){
     .intro {
-    bottom: 40px;
-    right: 120px;
-}
-    .intro h1 {
-    font-size: 50px;
+    max-width: 50%;
+    padding: 200px 80px 0;
+    color: white;
+    bottom: 80px;
+    right: 35px;
+    position: absolute;
+    padding: 10px;
 }
 }
 
-@media only screen and (min-width: 600px) { /* "..." screens 600px and up*/
-    .intro h1 {
-    font-size: 60px;
-    color: rgba(255, 255, 255,0.9);
-    z-index: 1;
+@media only screen and (min-width: 601px) {
+    .intro {
+    max-width: 50%;
+    padding: 200px 80px 0;
+    color: white;
+    bottom: 200px;
+    right: 35px;
+    position: absolute;
+    padding: 10px;
 }
+.intro h1 {
+    font-size: 80px;
+    z-index: 1;
+    padding: 10px;
+}
+
 .intro p {
-    font-size: 25px;
+    font-size: 20px;
+    padding: 10px;
     font-weight: 300;
     z-index: 1;
 }
 }
 
-@media only screen and (min-width: 768px) { /* "..." screen sizes 768 & up*/
+@media only screen and (min-width: 992px) {
     .intro {
-    bottom: 300px;
-    right: 20px;
+    max-width: 50%;
+    padding: 200px 80px 0;
+    color: white;
+    bottom: 200px;
+    right: 35px;
+    position: absolute;
+    padding: 10px;
 }
+.intro h1 {
+    font-size: 80px;
+    z-index: 1;
+    padding: 10px;
 }
 
-@media only screen and (min-width: 992px) { /* "..." screen sizes 992 & up*/
-        .intro {
-    bottom: 700px;
-    right: 20px;
+.intro p {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 300;
+    z-index: 1;
 }
 }
