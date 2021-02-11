@@ -289,3 +289,12 @@ Credits to the following photographers and open source platforms for use and sup
 
 1. Hero images on the landing page was taken by user [ilaria88](https://www.pexels.com/@ilaria88-32645?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) 
 at pexels.com .
+2. Coal by [JeffersonSees](https://unsplash.com/@jeffersonsees) at unsplash.com.
+3. Firewood by [Waldemar Brandt](https://unsplash.com/@waldemarbrandt67w) at unsplash.com.
+4. Peat by [Martaposemuckel](https://pixabay.com/users/martaposemuckel-17386/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=260014) at pixabay.com.
+5. Kindling [Masaaki Komori](https://unsplash.com/@gaspanik) at unsplash.com.
+6. Ventry Sandstone [Karolina Grabowska](https://www.pexels.com/@karolina-grabowska?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) at pexels.coms.
+7. Wicklow Plum [Arya Kratos](https://www.pexels.com/@arya-kratos-14739?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) at pexels.com
+8. All other gravel images are the property of JP Trading.
+
+
