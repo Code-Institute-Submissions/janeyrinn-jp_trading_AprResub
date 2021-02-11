@@ -3,11 +3,12 @@
 /*----------------------------------------------------------General Structure & Commmon Components*/
 * {
 	margin: 0px;
-    padding: 0px;
+    padding: 100px, 0;
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 h1, h2 {
@@ -20,11 +21,13 @@ h3, h4, h5, h6 {
     font-weight: 400;
 }
 
-/*----------------------------------------------------------NavBar*/
-
-.fixed-top {
-	position: fixed;
+.heading-main {
+    color:white;
+    font-weight: 300;
+    font-size: 1.5rem;
 }
+
+/*----------------------------------------------------------NavBar*/
 
 .bg-dark {
     background-color: black!important;
@@ -52,6 +55,15 @@ a.nav-link.hvr-underline-from-center::before {
 	height: 1px;
 }
 
+/*----------------------------------------------------------FOOTER*/
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0;
+}
+
 /*----------------------------------------------------------LANDING PAGE*/
 
 .hero-img {
@@ -70,6 +82,7 @@ a.nav-link.hvr-underline-from-center::before {
 }
 /* Some of the above class rule was learned from Learn Design channel tutorial on YouTube & customized*/
 
+/*-------------------------- INTRO TEXT */
 .intro {
     max-width: 55%;
     padding: 200px 80px 0;
@@ -156,7 +169,7 @@ a.nav-link.hvr-underline-from-center::before {
 }
 }
 
-/*----------------------------------------------------------LANDING PAGE ICONS*/
+/*-------------------------- ICONS */
 
 #icons-container {
     width: 100%;
@@ -184,11 +197,81 @@ a.nav-link.hvr-underline-from-center::before {
     margin-top: 10px;
 }
 
-/*----------------------------------------------------------FOOTER*/
+/*----------------------------------------------------------PRODUCTS PAGE*/
 
-.footer {
-    text-align: center;
-    color: white;
+/*-------------------------- SEARCH BAR*/
+/* Code was learnt from code doctor on youtube but customized and adusted*/
+
+#search-container{
     background-color: black;
-    margin: 0;
+    position: relative;
+    width: 100%;
+}
+.search-container{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.search-button-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    right: 0%;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/search-icon.png);
+    background-color:transparent;
+    border: none;
+    z-index: 1;
+}
+
+.search-button-icon:hover {
+    border: .5px solid  yellow;
+}
+
+.search-button-icon:focus {
+    border: none;
+    outline: none;
+}
+
+.search-bar {
+    width: calc(100% - 150px);
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+    background-color: transparent;
+    border:none;
+    border-bottom: 2px solid white;
+    z-index: 0;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+.search-bar-button {
+    padding: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+    z-index: 0;
+}
+
+.search-bar-button:hover {
+    color: yellow;
+}
+
+.search-bar-button:focus {
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
 }
