@@ -22,12 +22,6 @@ h3, h4, h5, h6 {
     font-weight: 400;
 }
 
-.heading-main {
-    color:white;
-    font-weight: 300;
-    font-size: 1.5rem;
-}
-
 .hr-med {
 	width: 50%;
 	border-top: 1px solid #fafafa;
@@ -79,10 +73,9 @@ a.nav-link.hvr-underline-from-center::before {
     text-transform: uppercase;
     font-size: x-small;
     min-height: 100px;
-    
 }
 
-/*----------------------------------------------------------LANDING PAGE*/
+/*----------------------------------------------------------HOME PAGE*/
 
 .hero-img {
     background: rgba(0,0,0,0.2)url(images/hero_image.jpg) no-repeat;
@@ -100,7 +93,7 @@ a.nav-link.hvr-underline-from-center::before {
 }
 /* Some of the above class rule was learned from Learn Design channel tutorial on YouTube & customized*/
 
-/*-------------------------- INTRO TEXT */
+/*--------------------------HOME PAGE: INTRO TEXT */
 .intro {
     max-width: 55%;
     padding: 200px 80px 0;
@@ -187,7 +180,7 @@ a.nav-link.hvr-underline-from-center::before {
 }
 }
 
-/*-------------------------- ICONS */
+/*-------------------------- HOME PAGE : ICONS */
 
 #icons-container {
     width: 100%;
@@ -217,7 +210,7 @@ a.nav-link.hvr-underline-from-center::before {
 
 /*----------------------------------------------------------PRODUCTS PAGE*/
 
-/*-------------------------- SEARCH BAR*/
+/*-------------------------- PRODUCTS PAGE : SEARCH BAR*/
 /* Code was learnt from code doctor on youtube but customized and adusted*/
 
 #search-container{
@@ -297,8 +290,7 @@ a.nav-link.hvr-underline-from-center::before {
     background-color: white;
     color: black;
 }
-
-/*----------------------------------------------------------CATALOGUE*/
+/*-------------------------- PRODUCTS PAGE : CATALOGUE*/
 
 #catalogue {
     background-color: black;
@@ -322,14 +314,16 @@ a.nav-link.hvr-underline-from-center::before {
     font-size: 1.2rem;
 }
 
-/*----------------------------------------------------------CONTACT FORM*/
+/*----------------------------------------------------------CONTACT PAGE*/
+
+/*-------------------------- CONTACT PAGE : FORM*/
 
 #contact-us {
     background-color: black;
     color: white;
     text-align: center;
     margin: 0px 0px;
-    padding: 50px;
+    padding: 15px;
 }
 
 #contact-form {
@@ -365,3 +359,12 @@ a.nav-link.hvr-underline-from-center::before {
     color: black;
 }
 
+/*-------------------------- CONTACT PAGE : LOCATION DETAILS */
+
+#location-details{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 50px;
+}
