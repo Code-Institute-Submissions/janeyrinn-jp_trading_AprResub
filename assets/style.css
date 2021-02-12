@@ -8,6 +8,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    position: relative;
+    
 }
 
 h1, h2 {
@@ -26,6 +28,16 @@ h3, h4, h5, h6 {
     font-size: 1.5rem;
 }
 
+.hr-med {
+	width: 50%;
+	border-top: 1px solid #fafafa;
+	border-radius: 5%;
+	margin-top: 1.875rem;
+	margin-bottom: 1.875rem;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+}
 /*----------------------------------------------------------NavBar*/
 
 .bg-dark {
@@ -38,7 +50,7 @@ h3, h4, h5, h6 {
 }
 
 .navbar-brand:hover {
-    color: yellow!important;
+    color: #F2E205!important;
 }
 
 .navbar-toggler {
@@ -54,7 +66,7 @@ h3, h4, h5, h6 {
 }
 
 a.nav-link.hvr-underline-from-center::before {
-	background-color: yellow;
+	background-color: #F2E205;
 	height: 1px;
 }
 
@@ -66,7 +78,8 @@ a.nav-link.hvr-underline-from-center::before {
     background-color: black;
     text-transform: uppercase;
     font-size: x-small;
-    min-height: 35px;
+    min-height: 100px;
+    
 }
 
 /*----------------------------------------------------------LANDING PAGE*/
@@ -274,7 +287,7 @@ a.nav-link.hvr-underline-from-center::before {
 }
 
 .search-bar-button:hover {
-    color: yellow;
+    color: #F2E205;
     font-size: 2rem;
 }
 
@@ -308,3 +321,47 @@ a.nav-link.hvr-underline-from-center::before {
 .card-body a:hover {
     font-size: 1.2rem;
 }
+
+/*----------------------------------------------------------CONTACT FORM*/
+
+#contact-us {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 50px;
+}
+
+#contact-form {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-control:hover {
+	border: solid #F2E205 3px;
+}
+
+
+.contact-form-btn {
+    padding: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+    z-index: 0;
+    border-radius: 25px;
+}
+
+.contact-form-btn:hover {
+    color: #F2E205;
+    background-color: transparent;
+    border: none;
+}
+
+.contact-form-btn:focus {
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+}
+
