@@ -12,10 +12,17 @@ body {
     
 }
 
-h1, h2 {
+h1, h2{
     font-family: 'Sintony', sans-serif;
     font-weight: 700;
 }
+
+h3 {
+    font-family: 'Sintony', sans-serif;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}   
 
 h3, h4, h5, h6 {
     font-family: 'Sintony', sans-serif;
@@ -359,7 +366,7 @@ a.nav-link.hvr-underline-from-center::before {
     color: black;
 }
 
-/*-------------------------- CONTACT PAGE : LOCATION DETAILS */
+/*-------------------------- CONTACT PAGE : LOCATION DETAILS & OPENING HOURS */
 
 #location-details{
     background-color: black;
@@ -368,3 +375,11 @@ a.nav-link.hvr-underline-from-center::before {
     margin: 0px 0px;
     padding: 50px;
 }
+
+.opening-hours {
+	text-align: center;
+	color: white;
+    padding-top: 5px;
+    padding-bottom: 1px;
+}
+
