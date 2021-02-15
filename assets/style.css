@@ -39,6 +39,10 @@ h3, h4, h5, h6 {
 	margin-right: auto;
 	z-index: 1;
 }
+
+.toggle {
+    display: none;
+}
 /*----------------------------------------------------------NavBar*/
 
 .bg-dark {
@@ -376,6 +380,10 @@ a.nav-link.hvr-underline-from-center::before {
     padding: 50px;
 }
 
+.hours-spacing{
+    padding-bottom: 65px;
+}
+
 .opening-hours {
 	text-align: center;
 	color: white;
@@ -383,3 +391,7 @@ a.nav-link.hvr-underline-from-center::before {
     padding-bottom: 1px;
 }
 
+#map {
+    min-height: 400px;
+    background-color: white;
+}
