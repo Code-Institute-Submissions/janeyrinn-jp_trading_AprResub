@@ -380,10 +380,13 @@ a.nav-link.hvr-underline-from-center::before {
     padding: 50px;
 }
 
-.location-details-inner {
-    padding-left: 50px;
+@media only screen and (min-width: 1400px){
+    .location-details-inner {
+    padding-left: 300px;
     padding-right: 50px;
 }
+}
+
 
 .hours-spacing{
     padding-top: 20px;
