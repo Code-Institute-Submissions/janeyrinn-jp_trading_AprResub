@@ -334,7 +334,7 @@ a.nav-link.hvr-underline-from-center::before {
     color: white;
     text-align: center;
     margin: 0px 0px;
-    padding: 15px;
+    padding: 50px;
 }
 
 #contact-form {
@@ -380,8 +380,13 @@ a.nav-link.hvr-underline-from-center::before {
     padding: 50px;
 }
 
+.location-details-inner {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 .hours-spacing{
-    padding-bottom: 65px;
+    padding-top: 20px;
 }
 
 .opening-hours {
@@ -394,4 +399,5 @@ a.nav-link.hvr-underline-from-center::before {
 #map {
     min-height: 400px;
     background-color: white;
+    border-radius: 5px;
 }

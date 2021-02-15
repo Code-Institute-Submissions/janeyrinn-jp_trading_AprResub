@@ -15,6 +15,17 @@
     <link rel="stylesheet" href="assets/style.css" type="text/css" />
     <title>JP TRADING</title>
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+
+    <!--EamilJS Script Code-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_LZ7rmXD2d5ce2Tus9PXLo");
+        })();
+    </script>
+
+
 </head>
 
 <body>
@@ -59,22 +70,18 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-12 form rounded">
-                                <form id="contact-form">
+                                <form onsubmit="return sendMail(this);" id="contact-form">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name"
-                                            required />
-                                    </div>
-                                    <div class="form-group ">
-                                        <input type="email" class="form-control" id="email_address"
-                                            placeholder="Your Email Address" required />
+                                        <input name="name" type="text" class="form-control" id="name"
+                                            placeholder="Your Name" required />
                                     </div>
                                     <div class="form-group">
-                                        <input type="tel" class="form-control" id="phone"
-                                            pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="Contact Number" required />
+                                        <input name="emailaddress" type="emailaddress" class="form-control"
+                                            id="email_address" placeholder="Your Email Address" required />
                                     </div>
                                     <div class="form-group">
-                                        <textarea class="form-control" id="textarea1"
-                                            placeholder="Ask your questions here" rows="6" required></textarea>
+                                        <textarea name="generalquery" class="form-control" id="generalquery" type="text"
+                                            placeholder="Ask your questions here.." rows="6" required></textarea>
                                     </div>
                                     <div>
                                         <input type="submit" value="Send It!" class="btn btn-light contact-form-btn" />
@@ -100,9 +107,8 @@
 
         <!--Start Google Map-->
 
-        <div class="row">
+        <div class="row location-details-inner">
             <div class="col-lg-6 col-sm-12">
-                <h3>Find Us on Google Maps </h3>
                 <div id="map"></div>
             </div>
 
@@ -128,8 +134,9 @@
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXFN_TqRNc4Py-nS-kzQBT1Uhb1UrPpwg&callback=initMap&libraries=&v=weekly"
         defer></script>
-    <script src="assets/js/map.js"></script>
 
+    <!--Local JS-->
+    <script src="assets/js/contact.js"></script>
     <!--JQuery & JS Script-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
