@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
     <link rel="stylesheet" href="assets/style.css" type="text/css" />
+    <script src="assets/js/index.js"></script>
     <title>JP TRADING</title>
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
 </head>
@@ -63,33 +64,33 @@
 
                 <div class="col-sm-12 col-md-6 col-lg-3">
                     <div class="icon-grid">
-                        <i class="fa fa-users icon fa-3x"></i>
+                        <i class="fa fa-users icon fa-3x"  onclick="toggleLocal()"></i>
                         <h3 class="icon-text">Locally Owned</h3>
-                        <p class="toggle">Family Run, Locally Owned, Small Irish Business.</p>
+                        <p id="toggle-local">Local Family Business</p>
                     </div>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-3">
                     <div class="icon-grid">
-                        <i class="fa fa-truck  icon fa-3x" aria-hidden="true"></i>
+                        <i class="fa fa-truck  icon fa-3x" aria-hidden="true" onclick="toggleDeliveries()"></i>
                         <h3 class="icon-text">Deliveries</h3>
-                        <p class="toggle">Deliveries in Cork/West Waterford Area</p>
+                        <p id="toggle-del">Deliveries in Cork/West Waterford Area</p>
                     </div>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-3">
                     <div class="icon-grid">
-                        <i class="fa fa-shopping-cart icon fa-3x" aria-hidden="true"></i>
+                        <i class="fa fa-shopping-cart icon fa-3x" aria-hidden="true" onclick="toggleOrders()"></i>
                         <h3 class="icon-text">Online Orders</h3>
-                        <p class="toggle">Buy Today , Delivered Tomorrow!</p>
+                        <p id="toggle-orders">Buy Today , Delivered Tomorrow!</p>
                     </div>
                 </div>
 
                 <div class="col-sm-12 col-md-6 col-lg-3">
                     <div class="icon-grid">
-                        <i class="fa fa-certificate icon fa-3x" aria-hidden="true"></i>
+                        <i class="fa fa-certificate icon fa-3x" aria-hidden="true" onclick="toggleQuality()"></i>
                         <h3 class="icon-text">Quality</h3>
-                        <p class="toggle">High quality Handmade Products</p>
+                        <p id="toggle-quality">High quality Handmade Products</p>
                     </div>
                 </div>
 
