@@ -255,6 +255,7 @@ photographers and sources please see the [credits](#credits) section.
   4. [JQuery](https://jquery.com/)Javascript library
   5. [Google Fonts](https://fonts.google.com/) Used to import fonts.
   6. [Font Awesome](https://fontawesome.com/v4.7.0/) Used for icons.
+  7. [AOS Library](https://michalsnik.github.io/aos/) & [AOS Guide](https://www.sitepoint.com/cool-scroll-animations-made-easy-aos-library/) Used for animation on landing page intro text. 
 
 ### Programmes & Tools
 
@@ -268,7 +269,11 @@ photographers and sources please see the [credits](#credits) section.
 
 ### Sources
 
-1. [MDN Web Docs](https://developer.mozilla.org/) Genreal source of information for structure and styling.
+_General sources of information for structure and styling._
+
+1. [MDN Web Docs](https://developer.mozilla.org/)
+2. [Youtube](https://www.youtube.com/)
+3. [W3 Schools](https://www.w3schools.com/js/default.asp)
 
 ## Testing
 
@@ -297,4 +302,8 @@ at pexels.com .
 7. Wicklow Plum [Arya Kratos](https://www.pexels.com/@arya-kratos-14739?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) at pexels.com
 8. All other gravel images are the property of JP Trading.
 
+### Code
 
+1. [Mark Down](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+2. [Search Bar](https://www.youtube.com/watch?v=QTILvEMFqKo&feature=emb_logo)
+3. [Hero Image CSS on Landing/Home Page](https://www.youtube.com/watch?v=FSF2VA1rsI4&t=327s) some properties learned and adapted for the project.
