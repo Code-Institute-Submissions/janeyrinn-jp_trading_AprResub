@@ -70,7 +70,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-12 form rounded">
-                                <form onsubmit="return sendMail(this);" >
+                                <form onsubmit="return sendMail(this);">
                                     <div class="form-group">
                                         <input name="name" type="text" class="form-control" id="name"
                                             placeholder="Your Name" required />
@@ -80,12 +80,21 @@
                                             id="email_address" placeholder="Your Email Address" required />
                                     </div>
                                     <div class="form-group">
-                                    <input type="tel" class="form-control" name="phone" id="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="Contact Number" required />
+                                        <input type="tel" class="form-control" name="phone" id="phone"
+                                            pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="Contact Number" required />
                                     </div>
+
                                     <div class="form-group">
-                                        <input name="product" type="text" class="form-control" id="product"
-                                        required />
-                                    </div>
+                                        <label class="order-form-text" for="product">Product Type:</label>
+                                        <input name="product" type="text" class="form-control inline-form" id="product" required />
+
+                                        <label class="order-form-text" for="quantity">Choose a Quantity:</label>
+                                        <select id="quantity" name="quantity">
+                                            <option value="one">One</option>
+                                            <option value="two">Two</option>
+                                            <option value="three">Three</option>
+                                            <option value="four">Four</option>
+                                        </select></div>
                                     <div class="form-group">
                                         <textarea name="ordernotes" class="form-control" id="ordernotes" type="text"
                                             placeholder="Anything to add?" rows="6" required></textarea>

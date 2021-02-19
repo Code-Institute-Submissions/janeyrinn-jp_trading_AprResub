@@ -418,6 +418,11 @@ a.nav-link.hvr-underline-from-center::before {
 
 /*-------------------------- FORM : GENERAL */
 
+.form {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .form-gen {
     background-color: black;
     color: white;
@@ -430,6 +435,8 @@ a.nav-link.hvr-underline-from-center::before {
 .form-control:hover {
 	border: solid #F2E205 3px;
 }
+
+/*-------------------------- FORM : CONTACT FORM */
 
 .send-form-btn {
     padding: 10px;
@@ -527,4 +534,16 @@ a.nav-link.hvr-underline-from-center::before {
     background-color: white;
     color: black;
 }
+}
+
+.order-form-text {
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+
+.inline-form {
+width: 50%;
+display: inline-block;
+margin-right:20px; 
 }

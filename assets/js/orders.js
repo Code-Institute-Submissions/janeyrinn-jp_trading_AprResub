@@ -1,4 +1,4 @@
-//EmailJS SDK Code: Sends emails to business owner through contact form
+//EmailJS SDK Code: Sends emails to business owner through order form
 // Code learned and customized from code used by Matt Rudge in "Using EmailJS" CI Tutuorial
 
 function sendMail(contactForm) {
@@ -6,6 +6,7 @@ function sendMail(contactForm) {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "product": contactForm.product.value,
+        "quantity": contactForm.quantity.value,
         "phone": contactForm.phone.value,
         "order_notes": contactForm.ordernotes.value
     })
@@ -20,3 +21,5 @@ function sendMail(contactForm) {
             });
     return false;
 }
+
+//Pulls Product name from clicked link & auto populates in order form
