@@ -5,6 +5,8 @@ function sendMail(contactForm) {
     emailjs.send("orders_jptrading","orders_jptrading", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
+        "product": contactForm.product.value,
+        "phone": contactForm.phone.value,
         "order_notes": contactForm.ordernotes.value
     })
         .then(
