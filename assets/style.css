@@ -431,14 +431,13 @@ a.nav-link.hvr-underline-from-center::before {
 	border: solid #F2E205 3px;
 }
 
-/*-------------------------- FORM : CONTACT FORM */
-
 .send-form-btn {
     padding: 10px;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     background-color: transparent;
+    font-weight: bold;
     border: none;
     z-index: 0;
     border-radius: 25px;
@@ -459,12 +458,11 @@ a.nav-link.hvr-underline-from-center::before {
 
 /*-------------------------- FORM : ORDER FORM */
 
-#order-form {
-    
-    padding: 200px 200px;
+#order-form{
+    padding-top: 200px;
     background: rgba(0,0,0,0.2)url(images/hero_image.jpg) no-repeat;
     background-position: center;
-    min-height: 80vh;
+    min-height: 90vh;
     overflow: hidden;
     background-blend-mode: overlay;
     align-items: center;
@@ -475,27 +473,58 @@ a.nav-link.hvr-underline-from-center::before {
     -o-background-size: cover;
     background-size: cover;
 }
+#order-footer {
+    padding-bottom: 80px;
+}
 
 .order-form-btn {
     padding: 10px;
-    color: black;
+    color: white;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     font-size: 1.5rem;
-    background-color: white;
+    background-color: transparent;
     border: none;
     z-index: 0;
     border-radius: 25px;
 }
 
 .order-form-btn:hover {
-    color: black ;
-    background-color: #F2E205;
+    color: #F2E205;
+    background-color: black;
     border: none;
 }
 
-.send-form-btn:focus {
-    border:#F2E205 ;
+.order-form-btn:focus {
+    border: none;
     outline: none;
     background-color: white;
     color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .order-form-btn {
+    padding: 5px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+    z-index: 0;
+    border-radius: 25px;
+}
+
+.order-form-btn:hover {
+    color: #F2E205;
+    background-color: black;
+    border: none;
+}
+
+.order-form-btn:focus {
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+}
 }
