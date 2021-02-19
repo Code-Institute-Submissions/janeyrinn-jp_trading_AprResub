@@ -379,50 +379,7 @@ a.nav-link.hvr-underline-from-center::before {
 
 /*----------------------------------------------------------CONTACT PAGE*/
 
-/*-------------------------- CONTACT PAGE : FORM*/
-
-#contact-us {
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin: 0px 0px;
-    padding: 50px;
-}
-
-#contact-form {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.form-control:hover {
-	border: solid #F2E205 3px;
-}
-
-
-.contact-form-btn {
-    padding: 10px;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
-    background-color: transparent;
-    border: none;
-    z-index: 0;
-    border-radius: 25px;
-}
-
-.contact-form-btn:hover {
-    color: #F2E205;
-    background-color: transparent;
-    border: none;
-}
-
-.contact-form-btn:focus {
-    border: none;
-    outline: none;
-    background-color: white;
-    color: black;
-}
-
-/*-------------------------- CONTACT PAGE : LOCATION DETAILS & OPENING HOURS */
+/*-------------------------- LOCATION DETAILS & OPENING HOURS */
 
 #location-details{
     background-color: black;
@@ -455,4 +412,90 @@ a.nav-link.hvr-underline-from-center::before {
     min-height: 400px;
     background-color: white;
     border-radius: 5px;
+}
+
+/*----------------------------------------------------------FORMS*/
+
+/*-------------------------- FORM : GENERAL */
+
+.form-gen {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-control:hover {
+	border: solid #F2E205 3px;
+}
+
+/*-------------------------- FORM : CONTACT FORM */
+
+.send-form-btn {
+    padding: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+    z-index: 0;
+    border-radius: 25px;
+}
+
+.send-form-btn:hover {
+    color: #F2E205;
+    background-color: transparent;
+    border: none;
+}
+
+.send-form-btn:focus {
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+}
+
+/*-------------------------- FORM : ORDER FORM */
+
+#order-form {
+    
+    padding: 200px 200px;
+    background: rgba(0,0,0,0.2)url(images/hero_image.jpg) no-repeat;
+    background-position: center;
+    min-height: 80vh;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.order-form-btn {
+    padding: 10px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    background-color: white;
+    border: none;
+    z-index: 0;
+    border-radius: 25px;
+}
+
+.order-form-btn:hover {
+    color: black ;
+    background-color: #F2E205;
+    border: none;
+}
+
+.send-form-btn:focus {
+    border:#F2E205 ;
+    outline: none;
+    background-color: white;
+    color: black;
 }

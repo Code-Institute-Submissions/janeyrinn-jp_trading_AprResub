@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
     <link rel="stylesheet" href="assets/style.css" type="text/css" />
+    <script src="assets/js/orders.js"></script>
     <title>JP TRADING</title>
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
 
@@ -51,8 +52,7 @@
                             <a class="nav-link hvr-underline-from-center" href="products.html">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active hvr-underline-from-center" href="contact.html">Contact</a>
-                            <span class="sr-only">(current)</span>
+                            <a class="nav-link hvr-underline-from-center" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -60,17 +60,17 @@
         </nav>
     </header>
 
-    <!--Start Contact Form-->
-    <section class="form-gen" id="contact-form">
+    <!--Start Order Form-->
+    <section class="form-gen" id="order-form">
         <div class="container fluid">
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <h2>Have a Question? Send us a Message!</h2>
+                    <h2>Order Form</h2>
                     <hr class="hr-med" />
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-12 form rounded">
-                                <form onsubmit="return sendMail(this);">
+                                <form onsubmit="return sendMail(this);" id="contact-form">
                                     <div class="form-group">
                                         <input name="name" type="text" class="form-control" id="name"
                                             placeholder="Your Name" required />
@@ -80,11 +80,18 @@
                                             id="email_address" placeholder="Your Email Address" required />
                                     </div>
                                     <div class="form-group">
-                                        <textarea name="generalquery" class="form-control" id="generalquery" type="text"
-                                            placeholder="Ask your questions here.." rows="6" required></textarea>
+                                    <input type="tel" class="form-control" id="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="Contact Number" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input name="product" type="text" class="form-control" id="product"
+                                        required />
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea name="ordernotes" class="form-control" id="ordernotes" type="text"
+                                            placeholder="Anything to add?" rows="6" required></textarea>
                                     </div>
                                     <div>
-                                        <input type="submit" value="Send It!" class="btn btn-light send-form-btn" />
+                                        <input type="submit" value="Send It!" class="btn btn-light order-form-btn" />
                                     </div>
                                 </form>
                             </div>
@@ -95,33 +102,6 @@
         </div>
     </section>
 
-    <!--Start Location Details Section-->
-
-    <section id="location-details">
-        <div class="row justify-content-center">
-            <div class="col-12">
-                <h2>Location Details</h2>
-                <hr class="hr-med" />
-            </div>
-        </div>
-
-        <!--Start Google Map-->
-
-        <div class="row location-details-inner">
-            <div class="col-lg-6 col-sm-12">
-                <div id="map"></div>
-            </div>
-
-            <div class="col-lg-6 col-sm-12">
-                <h3 class="hours-spacing">Opening Hours</h3>
-                <p class="opening-hours">Mon to Friday: 8.30 - 18:00</p>
-                <p class="opening-hours">Saturday: 8:30 - 16:00</p>
-                <p class="opening-hours">Closed Sunday</p>
-                <p class="opening-hours"><i class="fa fa-phone" aria-hidden="true"></i> 083 123 4567</p>
-                <p class="opening-hours"><i class="fa fa-map-marker" aria-hidden="true"></i> Eircode P2Z-FK00</p>
-            </div>
-        </div>
-    </section>
 
     <!--Start Footer-->
 
@@ -129,14 +109,6 @@
         <p> © Jane Rinn, 2021. </p>
     </footer>
 
-    <!--Google Maps API scripts-->
-    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXFN_TqRNc4Py-nS-kzQBT1Uhb1UrPpwg&callback=initMap&libraries=&v=weekly"
-        defer></script>
-
-    <!--Local JS-->
-    <script src="assets/js/contact.js"></script>
     <!--JQuery & JS Script-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
