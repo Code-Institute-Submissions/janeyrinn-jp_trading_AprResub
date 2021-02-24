@@ -9,8 +9,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     position: relative;
-    
+    background-color: black;
 }
+
+
 
 h1, h2{
     font-family: 'Sintony', sans-serif;
@@ -38,6 +40,30 @@ h4, h5, h6 {
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 1;
+}
+
+.alert-container {
+    background-color: #A69B03;
+    color: black;
+    width: 100%;
+    margin-top: 0px;
+    padding: 5px 5px;
+    z-index: 1;
+}
+
+.general-hero-img {
+    background: rgba(0,0,0,0.2)url(images/hero_image.jpg) no-repeat;
+    background-position: center;
+    min-height: 50vh;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /*----------------------------------------------------------NavBar*/
@@ -98,6 +124,7 @@ a.nav-link.hvr-underline-from-center::before {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    z-index: 0;
 }
 /* Some of the above class rule was learned from Learn Design channel tutorial on YouTube & customized*/
 
@@ -122,8 +149,6 @@ a.nav-link.hvr-underline-from-center::before {
     font-weight: 300;
     z-index: 1;
 }
-
-
 
 /*The below media queries will make the intro text responsive to varied screen sizes*/
 
@@ -207,13 +232,6 @@ a.nav-link.hvr-underline-from-center::before {
     color: white;
 }
 
-.icon {
-    border-radius: 50%;
-    background-color:black;
-    color: white;
-    text-align: center;
-}
-
 .icon-text{
     margin-top: 10px;
 }
@@ -240,20 +258,7 @@ a.nav-link.hvr-underline-from-center::before {
 
 
 /*----------------------------------------------------------PRODUCTS PAGE*/
-.products-hero-img {
-    background: rgba(0,0,0,0.2)url(images/hero_image.jpg) no-repeat;
-    background-position: center;
-    min-height: 45vh;
-    overflow: hidden;
-    background-blend-mode: overlay;
-    align-items: center;
-    position: relative;
-    justify-content: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+
 /*-------------------------- PRODUCTS PAGE : SEARCH BAR*/
 /* Search bar Code was learnt from code doctor on youtube but customized and adusted*/
 
@@ -329,7 +334,7 @@ a.nav-link.hvr-underline-from-center::before {
 }
 
 .card {
-    margin: 1.5rem 1rem;
+    margin: 1rem 1rem;
 }
 
 .card-body a {

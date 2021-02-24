@@ -16,7 +16,7 @@ function toggleSearch() {
 filterCategories('allProducts') // Calls the function to display all containers of products
 
 function filterCategories(category) {
-    let x, i;
+    var x, i;
 
     x = document.getElementsByClassName("catalogue");
     if (category == "allProducts") category = "";
@@ -30,7 +30,7 @@ function filterCategories(category) {
 // Show filtered categories
 
 function addClass(element, name) {
-    let i, array1, array2;
+    var i, array1, array2;
     array1 = element.className.split(" ");
     array2 = name.split(" ");
     for (i = 0; i < array2.length; i++) {
@@ -43,7 +43,7 @@ function addClass(element, name) {
 // Hide unrequired categories
 
 function removeClass(element, name) {
-    let i, array1, array2;
+    var i, array1, array2;
     array1 = element.className.split(" ");
     array2 = name.split(" ");
     for (i = 0; i < array2.length; i++) {
@@ -55,11 +55,11 @@ function removeClass(element, name) {
 }
 
 // Add active class to the current button (highlight it)
-let searchCategories = document.getElementById("search-categories");
-let option = searchCategories.getElementsByClassName("option");
-for (let i = 0; i < option.length; i++) {
+var searchCategories = document.getElementById("search-categories");
+var option = searchCategories.getElementsByClassName("option");
+for (var i = 0; i < option.length; i++) {
     option[i].addEventListener("click", function () {
-        let current = searchCategories.getElementsByClassName("active");
+        var current = searchCategories.getElementsByClassName("active");
         current[0].className = current[0].className.replace(" active", "");
         this.className += " active";
     });

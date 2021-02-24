@@ -33,11 +33,11 @@ function sendMail(contactForm) {
     })
         .then(
             function (response) {
-                window.alert('YOUR MESSAGE WAS SENT')
+                window.alert('YOUR MESSAGE WAS SENT');
                 console.log("SENT", response);
             },
             function (error) {
-                window.alert('YOUR MESSAGE FAILED TO SEND')
+                window.alert('YOUR MESSAGE FAILED TO SEND');
                 console.log("NOT SENT", error);
             });
     return false;
