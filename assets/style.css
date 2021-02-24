@@ -24,7 +24,7 @@ h3 {
     margin-bottom: 2rem;
 }   
 
-h3, h4, h5, h6 {
+h4, h5, h6 {
     font-family: 'Sintony', sans-serif;
     font-weight: 400;
 }
@@ -252,13 +252,12 @@ a.nav-link.hvr-underline-from-center::before {
 .search-container{
     background-color: black;
     color: white;
-    font-size: 30px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
     z-index: 1;
 }
 
-#search-bar-container{
+#search-menu{
     display: none;
 }
 .search-button-icon {
@@ -316,43 +315,6 @@ a.nav-link.hvr-underline-from-center::before {
     outline: none;
 }
 
-.search-bar {
-    width: calc(100% - 150px);
-    padding: 10px;
-    color: white;
-    font-size: 1rem;
-    background-color: transparent;
-    border:none;
-    border-bottom: 2px solid white;
-    z-index: 0;
-}
-
-.search-bar:focus {
-    outline: none;
-}
-
-.search-bar-button {
-    padding: 10px;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
-    background-color: transparent;
-    border: none;
-    z-index: 0;
-    border-radius: 25px;
-}
-
-.search-bar-button:hover {
-    color: #F2E205;
-    font-size: 2rem;
-}
-
-.search-bar-button:focus {
-    border: none;
-    outline: none;
-    background-color: white;
-    color: black;
-}
 /*-------------------------- PRODUCTS PAGE : CATALOGUE*/
 
 #catalogue {
@@ -361,6 +323,10 @@ a.nav-link.hvr-underline-from-center::before {
     width: 100%;
     margin-top: 0;
     padding: 30px 0;
+}
+
+.catalogue {
+    display: none;
 }
 
 .card {
@@ -377,6 +343,9 @@ a.nav-link.hvr-underline-from-center::before {
     font-size: 1.2rem;
 }
 
+.result {
+    display: block;
+}
 /*----------------------------------------------------------CONTACT PAGE*/
 
 /*-------------------------- LOCATION DETAILS & OPENING HOURS */

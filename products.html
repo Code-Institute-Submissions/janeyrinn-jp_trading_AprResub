@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
     <link rel="stylesheet" href="assets/style.css" type="text/css" />
-    <script src="assets/js/products.js"></script>
+
     <title>JP TRADING</title>
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
 </head>
@@ -59,15 +59,18 @@
                     <h2>
                         Search Products & Order Today!
                     </h2>
-                    <button class="search-button-icon" onclick="toggleSearch()" ></button>
+                    <button class="search-button-icon" onclick="toggleSearch()"></button>
                 </div>
             </div>
         </div>
-        <div class="container" id="search-bar-container" >
+
+        <div class="container search-container" id="search-menu">
             <div class="row justify-content-center">
-                <div class="col-sm-12 col-md-12 col-lg-6">
-                    <input class="search-bar" type="text" placeholder="Browse Products..."><button
-                        class="search-bar-button">Search</button>
+                <div class="col-sm-12 col-md-12 col-lg-6 menu" id="search-categories">
+                    <button class="btn option active" onclick="filterCategories('allProducts')">All Products</button>
+                    <button class="btn option" onclick="filterCategories('fireFuel')">Firefuel</button>
+                    <button class="btn option" onclick="filterCategories('gardenFurniture')">Garden Furniture</button>
+                    <button class="btn option" onclick="filterCategories('aggregates')">Aggregates</button>
                 </div>
             </div>
         </div>
@@ -78,7 +81,7 @@
     <section id="catalogue">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12 catalogue fireFuel">
                     <div class="card text-center">
                         <img class="card-img-top" src="assets/images/products/coal.jpg" alt="coal-image">
                         <div class="card-body">
@@ -88,7 +91,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+
+                <div class="col-lg-3 col-md-6 col-sm-12 catalogue fireFuel">
                     <div class="card text-center">
                         <img class="card-img-top" src="assets/images/products/firewood.jpg" alt="coal-image">
                         <div class="card-body">
@@ -98,7 +102,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+
+
+                <div class="col-lg-3 col-md-6 col-sm-12 catalogue fireFuel">
                     <div class="card text-center">
                         <img class="card-img-top" src="assets/images/products/peat.jpg" alt="coal-image">
                         <div class="card-body">
@@ -108,7 +114,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
+
+                <div class="col-lg-3 col-md-6 col-sm-12 catalogue fireFuel">
                     <div class="card text-center">
                         <img class="card-img-top" src="assets/images/products/kindling.jpg" alt="coal-image">
                         <div class="card-body">
@@ -119,90 +126,93 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="card text-center">
-                        <img class="card-img-top" src="assets/images/products/chicken-coop.jpeg" alt="coal-image">
-                        <div class="card-body">
-                            <h4 class="card-title">Coops</h4>
-                            <p class="card-text">€200</p>
-                            <a href="orders.html">ORDER NOW</a>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 catalogue gardenFurniture">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="assets/images/products/chicken-coop.jpeg" alt="coal-image">
+                            <div class="card-body">
+                                <h4 class="card-title">Coops</h4>
+                                <p class="card-text">€200</p>
+                                <a href="orders.html">ORDER NOW</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="card text-center">
-                        <img class="card-img-top" src="assets/images/products/picnic-bench.jpg" alt="coal-image">
-                        <div class="card-body">
-                            <h4 class="card-title">Picnic Bench</h4>
-                            <p class="card-text">€150</p>
-                            <a href="orders.html">ORDER NOW</a>
+                    <div class="col-lg-3 col-md-6 col-sm-12 catalogue gardenFurniture">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="assets/images/products/picnic-bench.jpg" alt="coal-image">
+                            <div class="card-body">
+                                <h4 class="card-title">Picnic Bench</h4>
+                                <p class="card-text">€150</p>
+                                <a href="orders.html">ORDER NOW</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class=" col-lg-3 col-md-6 col-sm-12">
-                    <div class="card text-center">
-                        <img class="card-img-top" src="assets/images/products/swing-seat.jpg" alt="coal-image">
-                        <div class="card-body">
-                            <h4 class="card-title">Swing Seat</h4>
-                            <p class="card-text">€150</p>
-                            <a href="orders.html">ORDER NOW</a>
+                    <div class=" col-lg-3 col-md-6 col-sm-12 catalogue gardenFurniture">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="assets/images/products/swing-seat.jpg" alt="coal-image">
+                            <div class="card-body">
+                                <h4 class="card-title">Swing Seat</h4>
+                                <p class="card-text">€150</p>
+                                <a href="orders.html">ORDER NOW</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class=" col-lg-3 col-md-6 col-sm-12">
-                    <div class="card text-center">
-                        <img class="card-img-top" src="assets/images/products/swing-set.jpeg" alt="coal-image">
-                        <div class="card-body">
-                            <h4 class="card-title">Swing Set</h4>
-                            <p class="card-text">€250</p>
-                            <a href="orders.html">ORDER NOW</a>
+                    <div class=" col-lg-3 col-md-6 col-sm-12 catalogue gardenFurniture">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="assets/images/products/swing-set.jpeg" alt="coal-image">
+                            <div class="card-body">
+                                <h4 class="card-title">Swing Set</h4>
+                                <p class="card-text">€250</p>
+                                <a href="orders.html">ORDER NOW</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="card text-center">
-                        <img class="card-img-top" src="assets/images/products/har-gold.jpeg" alt="coal-image">
-                        <div class="card-body">
-                            <h4 class="card-title">Harvest Gold</h4>
-                            <p class="card-text">4kg €20</p>
-                            <a href="orders.html">ORDER NOW</a>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 catalogue aggregates">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="assets/images/products/har-gold.jpeg" alt="coal-image">
+                            <div class="card-body">
+                                <h4 class="card-title">Harvest Gold</h4>
+                                <p class="card-text">4kg €20</p>
+                                <a href="orders.html">ORDER NOW</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="card text-center">
-                        <img class="card-img-top" src="assets/images/products/tipp-blue.jpeg" alt="coal-image">
-                        <div class="card-body">
-                            <h4 class="card-title">Tipperary Blue</h4>
-                            <p class="card-text">4kg €30</p>
-                            <a href="orders.html">ORDER NOW</a>
+                    <div class="col-lg-3 col-md-6 col-sm-12 catalogue aggregates">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="assets/images/products/tipp-blue.jpeg" alt="coal-image">
+                            <div class="card-body">
+                                <h4 class="card-title">Tipperary Blue</h4>
+                                <p class="card-text">4kg €30</p>
+                                <a href="orders.html">ORDER NOW</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="card text-center">
-                        <img class="card-img-top" src="assets/images/products/sand.jpg" alt="coal-image">
-                        <div class="card-body">
-                            <h4 class="card-title">Sandstone</h4>
-                            <p class="card-text">4kg €25</p>
-                            <a href="orders.html">ORDER NOW</a>
+                    <div class="col-lg-3 col-md-6 col-sm-12 catalogue aggregates">
+                        <div class="card text-center ">
+                            <img class="card-img-top" src="assets/images/products/sand.jpg" alt="coal-image">
+                            <div class="card-body">
+                                <h4 class="card-title">Sandstone</h4>
+                                <p class="card-text">4kg €25</p>
+                                <a href="orders.html">ORDER NOW</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class=" col-lg-3 col-md-6 col-sm-12">
-                    <div class="card text-center">
-                        <img class="card-img-top" src="assets/images/products/wick-plum.jpg" alt="coal-image">
-                        <div class="card-body">
-                            <h4 class="card-title">Wicklow Plum</h4>
-                            <p class="card-text">2kg €5</p>
-                            <a href="orders.html">ORDER NOW</a>
+                    <div class=" col-lg-3 col-md-6 col-sm-12 catalogue aggregates">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="assets/images/products/wick-plum.jpg" alt="coal-image">
+                            <div class="card-body">
+                                <h4 class="card-title">Wicklow Plum</h4>
+                                <p class="card-text">2kg €5</p>
+                                <a href="orders.html">ORDER NOW</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -214,7 +224,8 @@
     <footer class="footer justify-content-center">
         <p> © Jane Rinn, 2021. </p>
     </footer>
-    
- 
+
+    <script src="assets/js/products.js"></script>
 </body>
+
 </html>
