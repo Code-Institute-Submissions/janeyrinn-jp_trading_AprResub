@@ -203,7 +203,7 @@ photographers and sources please see the [credits](#credits) section.
 
 7. The Browse Products page will have:
 
-        - A search bar.
+        - A search functionality for products.
         - Cards displaying product images and text.
         - A quick quote calculator.
         - A background image.
@@ -307,3 +307,4 @@ at pexels.com .
 1. [Mark Down](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 2. [Search Bar](https://www.youtube.com/watch?v=QTILvEMFqKo&feature=emb_logo)
 3. [Hero Image CSS on Landing/Home Page](https://www.youtube.com/watch?v=FSF2VA1rsI4&t=327s) some properties learned and adapted for the project.
+4. [Search Products Menu](https://www.w3schools.com/howto/howto_js_portfolio_filter.asp) code learned and adpated to suit this feature.
