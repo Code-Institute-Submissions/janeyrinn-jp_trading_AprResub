@@ -68,7 +68,8 @@ A simulation of the website on desktop and mobile devices can be seen below.
 | view the site on different screen sizes| use it at home or on the go |
 | learn about the company background/offering| assess whether it is suitable for my needs/something I would like to support | 
 | search a list of available products| can save time scrolling and easily find what I need|
-| calculate a quick quote | quickly assess if the product is good value & cut down on talk time with a sales person | 
+| price check items | quickly assess if the product is good value & cut down on talk time with a sales person |
+| order online | make purchases out of hours |
 | find the trading hours| assess whether they suit my availability |
 | find contact information | call or save it for use later |
 | contact the business on their platform | save time copying email addresses or opening another platform |
@@ -82,7 +83,7 @@ A simulation of the website on desktop and mobile devices can be seen below.
 | Show case our products & services | we can increase sales and consumer awareness|
 | Be adapted to screen readers| we do not discriminate and optimise catchment|
 | Be easy and enjoyable to use| it will create a good impression of the business, increase usage time and return visits|
-| Provide a quoting service| we can cut down on calls & administration|
+| Provide an online order service | to increase trading hours |
 | Provide a  structured means of contact| to reduce calls|
 
 ### Design
@@ -90,31 +91,36 @@ A simulation of the website on desktop and mobile devices can be seen below.
 
 **Skeleton**
 
-The site will be made up of three pages with one main section
+The site will be made up of four pages with one main section
 per page, all pages will have a 'sticky' navigation bar at the top and a small copyright footer.
 
 **Information Architecture**
 
-The home page will consist of a large hero image with a text introduction of the 
+The home page will consist of a large hero image with an animated text introduction of the 
 business. This will describe the business and the services available. Icons traditionally
 associated with the services offered will be displayed lower down and will reinforce
 this information allowing the information to be easily assimilated by the user. 
 
 The second page will be a gallery of current products in stock with some pricing information.
-There will be a feature to quick search through the products. A call to action alert will be created
-if an item is found in the search. This call to action will link the user to the contact the business. 
+There will be a feature to quick search through the products. A call to action message will be created
+on each product card. This call to action will link the user to an order form.
 
-The third page will provide contact information, the premise location and a contact form.
+The third page will be an order form. 
+
+The fourth page will provide contact information, the premise location and a contact form.
 
 **Interaction Design**
 
 The navigation bar will highlight on hover and active status.
 
-The text introduction on the home page will be animated, similar to a carosel, with short paragraphs 
+The text introduction on the home page will be animated, with a short paragraph 
 of information. Icons on the homepage will display discriptive text when clicked.
 
 The user will be able to interact with the data on the second page by searching through the products available
-and calculate a quote for some items.
+and place an order.
+
+The order form will total the order cost and populate the product name from the
+clicked link.
 
 On the third page the user will be able to send an email to the business and view the location of its premise.
 A confirmation message will display when the email has been sent successfully or an error if unsuccessfull.
@@ -159,6 +165,7 @@ not display the back up font should blend seamlessly.
 Both fonts are easily readable with strong straight lines which should be easily read by the user.
 
 #### Imagery
+
 Branding is an important design and marketing tool for establishing your business in the mind of the user.
 A logo was created using [canva.com](https://www.canva.com/). Consistant imagery inline with the businesses
 offering was used through out the site to reinforce that brand identity and convey the business offering 
@@ -178,7 +185,7 @@ photographers and sources please see the [credits](#credits) section.
  1. Responsive to different screen sizes.
  2. Supported by Chrome, Microsoft Edge and Firefox browsers.
  3. Adapted for users with special accessibility requirements where possible.
- 4. There will be three pages: Home page, Browse products page and a contact page.
+ 4. There will be four pages: Home page, Browse products page, Order page and a Contact page.
 
         - Each page will have a navigation header.
         - Each page will have a footer.
@@ -199,17 +206,16 @@ photographers and sources please see the [credits](#credits) section.
         - A hero image.
         - Animated informative text.
         - Interactive icons.
-        - A call to action.
 
 7. The Browse Products page will have:
 
+        - A hero image image & text banner.
         - A search functionality for products.
-        - Cards displaying product images and text.
-        - A quick quote calculator.
-        - A background image.
+        - On loading cards displaying all product images, text and a link to order.
 
 8. The Contact Page will have:
 
+        - A hero image image & text banner.
         - A google map API.
         - An email API.
         - Informative text.
@@ -217,19 +223,21 @@ photographers and sources please see the [credits](#credits) section.
 
 9. The Contact Form wil have:
 
-        - The form will be grey with white fields and white button.
+        - The form will be black with white fields and a transparent button.
         - A name, email and text area input.
         - All inputs will be mandatory and display an error message if a field is missing on submission.
-        - The border wil be black and of a 1-2px weight when hovered over.
+        - The border wil be yellow and of a 1-2px weight when hovered over.
         - The submission button will have a Send it! value.
         - The button will be yellow with black text on hover.
 
 10. The Search Bar will be:
 
-        - Yellow with black text and a white text input space.
-        - Have a drop down to select from as a user types.
+        - White text and yellow on hover with a filter button.
+        - When the text or filter button are clicked 4 toggled buttons displaying product categories will appear below.
+        - These buttons when selected will filter the display by category.
+        - An active button will be yellow, inactive will be white and yellow on hover, all with black text.
 
-11. The Quote Calculator will have:
+11. The Order Form:
 
         - TBA!!!!!!!!
 
@@ -269,7 +277,7 @@ photographers and sources please see the [credits](#credits) section.
 
 ### Sources
 
-_General sources of information for structure and styling._
+_General sources of information for structure functionality and styling._
 
 1. [MDN Web Docs](https://developer.mozilla.org/)
 2. [Youtube](https://www.youtube.com/)
@@ -285,6 +293,8 @@ _General sources of information for structure and styling._
 
 
 ## Deployment
+
+!!!!!TBA
 
 ## Credits
 
