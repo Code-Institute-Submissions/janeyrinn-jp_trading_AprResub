@@ -1,4 +1,5 @@
-//4 Functions below will toggle selected text on/off on click, source of learning W3Schools
+//4 Functions below will toggle <p> element below the icon on/off on click, source of learning W3Schools
+
 function toggleLocal() {
   var element = document.getElementById("toggle-local");
   if (element.style.display === "none") {
