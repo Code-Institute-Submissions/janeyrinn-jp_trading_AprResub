@@ -1,4 +1,4 @@
-// The below will hide and show the search bar on clicking the magnifying glass
+// The below will hide and show the search bar on clicking
 
 function toggleSearch() {
     var element = document.getElementById("search-menu");
@@ -9,11 +9,10 @@ function toggleSearch() {
     }
 }
 
-
 // The below was found at w3schools and customized.
-//It will allow the search menu functionality, when the selected option value = fireFuels then display items with a class of fireFuels
+//It will allow the filter buttons functionality, when the selected option value = Firefuels then display items with a class of fireFuels
 
-filterCategories('allProducts') // Calls the function to display all containers of products
+filterCategories('allProducts') 
 
 function filterCategories(category) {
     var x, i;
@@ -27,7 +26,7 @@ function filterCategories(category) {
     }
 }
 
-// Show filtered categories
+// Below will show filtered categories
 
 function addClass(element, name) {
     var i, array1, array2;
@@ -40,7 +39,7 @@ function addClass(element, name) {
     }
 }
 
-// Hide unrequired categories
+// Below will hide unrequired categories
 
 function removeClass(element, name) {
     var i, array1, array2;
@@ -54,7 +53,8 @@ function removeClass(element, name) {
     element.className = array1.join(" ");
 }
 
-// Add active class to the current button (highlight it)
+// Below will add active class to the current button (highlight it)
+
 var searchCategories = document.getElementById("search-categories");
 var option = searchCategories.getElementsByClassName("option");
 for (var i = 0; i < option.length; i++) {

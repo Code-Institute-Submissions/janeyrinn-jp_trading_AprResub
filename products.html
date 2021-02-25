@@ -66,6 +66,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-12 col-md-12 search-container text-center">
+                    <!--onclick function below will hide/show filter buttons on clicking-->
                     <h2 class="search-container-text" onclick="toggleSearch()">
                         Browse Categories <button class="btn filter-btn">Filter</button>
                     </h2>
@@ -77,6 +78,7 @@
         <div class="container search-container" id="search-menu">
             <div class="row justify-content-center">
                 <div class="col-sm-6 col-md-12 col-lg-12 text-center" id="search-categories">
+                    <!--onclick functions below will filter product category display on clicking-->
                     <button class="btn option active" onclick="filterCategories('allProducts')">All Products</button>
                     <button class="btn option" onclick="filterCategories('fireFuel')">Firefuel</button>
                     <button class="btn option" onclick="filterCategories('gardenFurniture')">Garden Furniture</button>
@@ -95,9 +97,10 @@
                     <div class="card text-center">
                         <img class="card-img-top" src="assets/images/products/coal.jpg" alt="coal-image">
                         <div class="card-body">
-                            <h4 class="card-title">Polish Coal</h4>
+                            <h4 class="card-title productType1">Polish Coal</h4>
                             <p class="card-text">4kg €20</p>
-                            <a href="orders.html">ORDER NOW</a>
+                            <!--onclick function will auto-populate product type field in order form-->
+                            <a href="orders.html" onclick="orderProductType1()">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -106,7 +109,7 @@
                     <div class="card text-center">
                         <img class="card-img-top" src="assets/images/products/firewood.jpg" alt="firewood-image">
                         <div class="card-body">
-                            <h4 class="card-title">Firewood</h4>
+                            <h4 class="card-title productType">Firewood</h4>
                             <p class="card-text">4kg €30</p>
                             <a href="orders.html">ORDER NOW</a>
                         </div>
@@ -117,7 +120,7 @@
                     <div class="card text-center">
                         <img class="card-img-top" src="assets/images/products/peat.jpg" alt="peat-image">
                         <div class="card-body">
-                            <h4 class="card-title">Irish Peat</h4>
+                            <h4 class="card-title productType">Irish Peat</h4>
                             <p class="card-text">4kg €25</p>
                             <a href="orders.html">ORDER NOW</a>
                         </div>
@@ -128,7 +131,7 @@
                     <div class="card text-center">
                         <img class="card-img-top" src="assets/images/products/kindling.jpg" alt="kindling-image">
                         <div class="card-body">
-                            <h4 class="card-title">Kindling</h4>
+                            <h4 class="card-title productType">Kindling</h4>
                             <p class="card-text">2kg €5</p>
                             <a href="orders.html">ORDER NOW</a>
                         </div>
@@ -143,7 +146,7 @@
                     <div class="card text-center">
                         <img class="card-img-top" src="assets/images/products/chicken-coop.jpeg" alt="coop-image">
                         <div class="card-body">
-                            <h4 class="card-title">Coops</h4>
+                            <h4 class="card-title productType">Coops</h4>
                             <p class="card-text">€200</p>
                             <a href="orders.html">ORDER NOW</a>
                         </div>
@@ -154,7 +157,7 @@
                     <div class="card text-center">
                         <img class="card-img-top" src="assets/images/products/picnic-bench.jpg" alt="table-image">
                         <div class="card-body">
-                            <h4 class="card-title">Tables</h4>
+                            <h4 class="card-title productType">Tables</h4>
                             <p class="card-text">€150</p>
                             <a href="orders.html">ORDER NOW</a>
                         </div>
@@ -165,7 +168,7 @@
                     <div class="card text-center">
                         <img class="card-img-top" src="assets/images/products/swing-seat.jpg" alt="swing-seat-image">
                         <div class="card-body">
-                            <h4 class="card-title">Swing Seat</h4>
+                            <h4 class="card-title productType">Swing Seat</h4>
                             <p class="card-text">€150</p>
                             <a href="orders.html">ORDER NOW</a>
                         </div>
@@ -176,7 +179,7 @@
                     <div class="card text-center">
                         <img class="card-img-top" src="assets/images/products/swing-set.jpeg" alt="swing-set-image">
                         <div class="card-body">
-                            <h4 class="card-title">Swing Set</h4>
+                            <h4 class="card-title productType">Swing Set</h4>
                             <p class="card-text">€250</p>
                             <a href="orders.html">ORDER NOW</a>
                         </div>
@@ -191,7 +194,7 @@
                     <div class="card text-center">
                         <img class="card-img-top" src="assets/images/products/har-gold.jpeg" alt="harvest-gold-image">
                         <div class="card-body">
-                            <h4 class="card-title">Harvest Gold</h4>
+                            <h4 class="card-title productType">Harvest Gold</h4>
                             <p class="card-text">4kg €20</p>
                             <a href="orders.html">ORDER NOW</a>
                         </div>
@@ -203,7 +206,7 @@
                         <img class="card-img-top" src="assets/images/products/tipp-blue.jpeg"
                             alt="tipperary-blue-image">
                         <div class="card-body">
-                            <h4 class="card-title">Tipperary Blue</h4>
+                            <h4 class="card-title productType">Tipperary Blue</h4>
                             <p class="card-text">4kg €30</p>
                             <a href="orders.html">ORDER NOW</a>
                         </div>
@@ -214,7 +217,7 @@
                     <div class="card text-center ">
                         <img class="card-img-top" src="assets/images/products/sand.jpg" alt="wexford-sand-image">
                         <div class="card-body">
-                            <h4 class="card-title">Wexford Sand</h4>
+                            <h4 class="card-title productType">Wexford Sand</h4>
                             <p class="card-text">4kg €25</p>
                             <a href="orders.html">ORDER NOW</a>
                         </div>
@@ -225,7 +228,7 @@
                     <div class="card text-center">
                         <img class="card-img-top" src="assets/images/products/wick-plum.jpg" alt="wicklow-plum-image">
                         <div class="card-body">
-                            <h4 class="card-title">Wicklow Plum</h4>
+                            <h4 class="card-title productType">Wicklow Plum</h4>
                             <p class="card-text">2kg €5</p>
                             <a href="orders.html">ORDER NOW</a>
                         </div>
@@ -241,6 +244,7 @@
     </footer>
     <!--Local JS Script-->
     <script src="assets/js/products.js"></script>
+    <script src="assets/js/orders.js"></script>
 </body>
 
 </html>

@@ -516,7 +516,7 @@ a.nav-link.hvr-underline-from-center::before {
 }
 
 .inline-form {
-width: 50%;
+width: 20%;
 display: inline-block;
 margin-right:20px; 
 }
