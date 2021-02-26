@@ -102,11 +102,16 @@ a.nav-link.hvr-underline-from-center::before {
 
 .footer {
     text-align: center;
-    color: white;
     background-color: black;
+    min-height: 50px;
+}
+
+.footer-text {
+    padding: 20px 20px;
     text-transform: uppercase;
     font-size: x-small;
-    min-height: 100px;
+    color: white;
+    margin: 0px;
 }
 
 /*----------------------------------------------------------HOME PAGE*/
@@ -266,6 +271,7 @@ a.nav-link.hvr-underline-from-center::before {
     background-color: black;
     position: relative;
     width: 100%;
+    padding-top: 40px;
 }
 .search-container{
     background-color: black;
@@ -439,10 +445,10 @@ a.nav-link.hvr-underline-from-center::before {
 /*-------------------------- FORM : ORDER FORM */
 
 #order-form{
-    padding-top: 200px;
+    padding-top: 40px;
     background: rgba(0,0,0,0.2)url(images/hero_image.jpg) no-repeat;
     background-position: center;
-    min-height: 90vh;
+    min-height: 60vh;
     overflow: hidden;
     background-blend-mode: overlay;
     align-items: center;
@@ -453,9 +459,7 @@ a.nav-link.hvr-underline-from-center::before {
     -o-background-size: cover;
     background-size: cover;
 }
-#order-footer {
-    padding-bottom: 80px;
-}
+
 
 .order-form-btn {
     padding: 10px;

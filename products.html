@@ -13,6 +13,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
     <link rel="stylesheet" href="assets/style.css" type="text/css" />
+
+    <!--EamilJS Script Code for the order form-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_LZ7rmXD2d5ce2Tus9PXLo");
+        })();
+    </script>
+
     <title>JP TRADING</title>
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
 </head>
@@ -100,7 +110,7 @@
                             <h4 class="card-title productType1">Polish Coal</h4>
                             <p class="card-text">4kg €20</p>
                             <!--onclick function will auto-populate product type field in order form-->
-                            <a href="orders.html" onclick="orderProductType1()">ORDER NOW</a>
+                            <a href="#order-form" onclick="orderProductType1('Polish Coal')">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +121,7 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Firewood</h4>
                             <p class="card-text">4kg €30</p>
-                            <a href="orders.html">ORDER NOW</a>
+                            <a href="#order-form">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -122,7 +132,7 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Irish Peat</h4>
                             <p class="card-text">4kg €25</p>
-                            <a href="orders.html">ORDER NOW</a>
+                            <a href="#order-form">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -133,7 +143,7 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Kindling</h4>
                             <p class="card-text">2kg €5</p>
-                            <a href="orders.html">ORDER NOW</a>
+                            <a href="#order-form">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -148,7 +158,7 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Coops</h4>
                             <p class="card-text">€200</p>
-                            <a href="orders.html">ORDER NOW</a>
+                            <a href="#order-form">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -159,7 +169,7 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Tables</h4>
                             <p class="card-text">€150</p>
-                            <a href="orders.html">ORDER NOW</a>
+                            <a href="#order-form">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -170,7 +180,7 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Swing Seat</h4>
                             <p class="card-text">€150</p>
-                            <a href="orders.html">ORDER NOW</a>
+                            <a href="#order-form">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -181,7 +191,7 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Swing Set</h4>
                             <p class="card-text">€250</p>
-                            <a href="orders.html">ORDER NOW</a>
+                            <a href="#order-form">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -196,7 +206,7 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Harvest Gold</h4>
                             <p class="card-text">4kg €20</p>
-                            <a href="orders.html">ORDER NOW</a>
+                            <a href="#order-form">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -208,7 +218,7 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Tipperary Blue</h4>
                             <p class="card-text">4kg €30</p>
-                            <a href="orders.html">ORDER NOW</a>
+                            <a href="#order-form">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -219,7 +229,7 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Wexford Sand</h4>
                             <p class="card-text">4kg €25</p>
-                            <a href="orders.html">ORDER NOW</a>
+                            <a href="#order-form">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -230,7 +240,57 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Wicklow Plum</h4>
                             <p class="card-text">2kg €5</p>
-                            <a href="orders.html">ORDER NOW</a>
+                            <a href="#order-form">ORDER NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Start Order Form-->
+    <section class="form-gen" id="order-form">
+        <div class="container fluid">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h2>Order Online Today!</h2>
+                    <hr class="hr-med" />
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12 form rounded">
+                                <!--onsubmit will send the form to an email address-->
+                                <form name="orderForm" onsubmit="return sendMail(this);">
+                                    <div class="form-group">
+                                        <input name="name" type="text" class="form-control" id="name"
+                                            placeholder="Your Name" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input name="emailaddress" type="emailaddress" class="form-control"
+                                            id="email_address" placeholder="Your Email Address" required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" class="form-control" name="phone" id="phone"
+                                            pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="Mobile Number" required/>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="order-form-text" for="product">Product Type:</label>
+                                        <input name="product" type="text" class="form-control inline-form" id="product" value=" " />
+
+                                        <label class="order-form-text" for="quantity">Choose a Quantity:</label>
+                                        <!--onkeyup function will validate quantity entered-->
+                                        <input name="quantity" type="number" class="form-control inline-form" id="quantity" min="1" max="10" onkeyup="validateQuantity()" />
+                                        <p id="quantityMsg"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea name="ordernotes" class="form-control" id="ordernotes" type="text"
+                                            placeholder="Anything to add?" rows="6"></textarea>
+                                    </div>
+                                    <div>
+                                        <input type="submit" value="Place Order" class="btn btn-light order-form-btn" />
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -240,7 +300,7 @@
 
     <!--Start Footer-->
     <footer class="footer justify-content-center">
-        <p> © Jane Rinn, 2021. </p>
+        <p class="footer-text"> © Jane Rinn, 2021. </p>
     </footer>
     <!--Local JS Script-->
     <script src="assets/js/products.js"></script>
