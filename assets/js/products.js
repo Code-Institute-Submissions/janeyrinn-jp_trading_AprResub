@@ -77,14 +77,13 @@ function sendMail(contactForm) {
         "phone": contactForm.phone.value,
         "order_notes": contactForm.ordernotes.value
     })
+    //This section will call a the modal on un/successful submission of the form
         .then(
             function (response) {
-                window.alert('YOUR MESSAGE WAS SENT, SOME ONE WILL CONTACT YOU SHORTLY')
-                console.log("SENT", response);
+                $('#successModal').modal('show');
             },
             function (error) {
-                window.alert('YOUR MESSAGE FAILED TO SEND')
-                console.log("NOT SENT", error);
+                $('#errorModal').modal('show');
             });
     return false;
 }
