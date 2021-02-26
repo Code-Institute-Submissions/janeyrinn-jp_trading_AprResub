@@ -43,12 +43,14 @@ h4, h5, h6 {
 }
 
 .alert-container {
+    margin-top:400px;
     background-color: #A69B03;
     color: black;
-    width: 100%;
-    margin-top: 0px;
-    padding: 5px 5px;
-    z-index: 1;
+}
+
+.alert-text {
+    text-transform: capitalize;
+    padding-top: 20px;
 }
 
 .general-hero-img {
@@ -539,4 +541,12 @@ a.nav-link.hvr-underline-from-center::before {
 width: 20%;
 display: inline-block;
 margin-right:20px; 
+}
+
+@media only screen and (max-width: 600px){
+    .inline-form {
+    width: 50%;
+    display: inline-block;
+    margin-right:20px;
+}
 }
