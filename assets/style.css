@@ -365,7 +365,7 @@ a.nav-link.hvr-underline-from-center::before {
     color: white;
     text-align: center;
     margin: 0px 0px;
-    padding: 50px;
+    padding: 40px;
 }
 
 @media only screen and (min-width: 1400px){
@@ -377,7 +377,7 @@ a.nav-link.hvr-underline-from-center::before {
 
 
 .hours-spacing{
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 .opening-hours {
@@ -388,7 +388,7 @@ a.nav-link.hvr-underline-from-center::before {
 }
 
 #map {
-    min-height: 400px;
+    min-height: 350px;
     background-color: white;
     border-radius: 5px;
 }
@@ -407,7 +407,7 @@ a.nav-link.hvr-underline-from-center::before {
     color: white;
     text-align: center;
     margin: 0px 0px;
-    padding: 50px;
+    padding: 40px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -416,6 +416,22 @@ a.nav-link.hvr-underline-from-center::before {
 }
 
 /*-------------------------- FORM : CONTACT FORM */
+
+#contact-form{
+    padding-top: 40px;
+    background: rgba(0,0,0,0.2)url(images/hero_image.jpg) no-repeat;
+    background-position: center;
+    min-height: 60vh;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 .send-form-btn {
     padding: 10px;
