@@ -68,6 +68,23 @@ h4, h5, h6 {
     background-size: cover;
 }
 
+@media only screen and (min-width: 992px) {
+    .general-hero-img {
+    background: rgba(0,0,0,0.2)url(images/hero_image.jpg) no-repeat;
+    background-position: center;
+    min-height: 30vh;
+    overflow: hidden;
+    background-blend-mode: overlay;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+}
+
 /*----------------------------------------------------------NavBar*/
 
 .bg-dark {
@@ -423,7 +440,7 @@ a.nav-link.hvr-underline-from-center::before {
     padding-top: 40px;
     background: rgba(0,0,0,0.2)url(images/hero_image.jpg) no-repeat;
     background-position: center;
-    min-height: 60vh;
+    min-height: 40vh;
     overflow: hidden;
     background-blend-mode: overlay;
     align-items: center;
@@ -466,7 +483,7 @@ a.nav-link.hvr-underline-from-center::before {
     padding-top: 40px;
     background: rgba(0,0,0,0.2)url(images/hero_image.jpg) no-repeat;
     background-position: center;
-    min-height: 60vh;
+    min-height: 40vh;
     overflow: hidden;
     background-blend-mode: overlay;
     align-items: center;
@@ -543,7 +560,7 @@ display: inline-block;
 margin-right:20px; 
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
     .inline-form {
     width: 50%;
     display: inline-block;
