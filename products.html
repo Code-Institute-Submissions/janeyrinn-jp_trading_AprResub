@@ -107,10 +107,10 @@
                     <div class="card text-center">
                         <img class="card-img-top" src="assets/images/products/coal.jpg" alt="coal-image">
                         <div class="card-body">
-                            <h4 class="card-title productType1">Polish Coal</h4>
+                            <h4 class="card-title">Polish Coal</h4>
                             <p class="card-text">4kg €20</p>
                             <!--onclick function will auto-populate product type field in order form-->
-                            <a href="#order-form" onclick="orderProductType1('Polish Coal')">ORDER NOW</a>
+                            <a href="#order-form" onclick="orderProductType('Polish Coal')">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,8 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Firewood</h4>
                             <p class="card-text">4kg €30</p>
-                            <a href="#order-form">ORDER NOW</a>
+                            <!--onclick function will auto-populate product type field in order form-->
+                            <a href="#order-form" onclick="orderProductType('Firewood')">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -132,7 +133,8 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Irish Peat</h4>
                             <p class="card-text">4kg €25</p>
-                            <a href="#order-form">ORDER NOW</a>
+                            <!--onclick function will auto-populate product type field in order form-->
+                            <a href="#order-form" onclick="orderProductType('Irish Peat')">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -143,7 +145,8 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Kindling</h4>
                             <p class="card-text">2kg €5</p>
-                            <a href="#order-form">ORDER NOW</a>
+                            <!--onclick function will auto-populate product type field in order form-->
+                            <a href="#order-form" onclick="orderProductType('Kindling')">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -158,7 +161,8 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Coops</h4>
                             <p class="card-text">€200</p>
-                            <a href="#order-form">ORDER NOW</a>
+                            <!--onclick function will auto-populate product type field in order form-->
+                            <a href="#order-form" onclick="orderProductType('Bird Coop')">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -169,7 +173,8 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Tables</h4>
                             <p class="card-text">€150</p>
-                            <a href="#order-form">ORDER NOW</a>
+                            <!--onclick function will auto-populate product type field in order form-->
+                            <a href="#order-form" onclick="orderProductType('Picnic Table')">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -180,7 +185,8 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Swing Seat</h4>
                             <p class="card-text">€150</p>
-                            <a href="#order-form">ORDER NOW</a>
+                            <!--onclick function will auto-populate product type field in order form-->
+                            <a href="#order-form" onclick="orderProductType('Swing Seat')">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -191,7 +197,8 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Swing Set</h4>
                             <p class="card-text">€250</p>
-                            <a href="#order-form">ORDER NOW</a>
+                            <!--onclick function will auto-populate product type field in order form-->
+                            <a href="#order-form" onclick="orderProductType('Swing Set')">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -206,7 +213,8 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Harvest Gold</h4>
                             <p class="card-text">4kg €20</p>
-                            <a href="#order-form">ORDER NOW</a>
+                            <!--onclick function will auto-populate product type field in order form-->
+                            <a href="#order-form" onclick="orderProductType('Harvest Gold')">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -218,7 +226,8 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Tipperary Blue</h4>
                             <p class="card-text">4kg €30</p>
-                            <a href="#order-form">ORDER NOW</a>
+                            <!--onclick function will auto-populate product type field in order form-->
+                            <a href="#order-form" onclick="orderProductType('Tipperary Blue')">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -229,7 +238,8 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Wexford Sand</h4>
                             <p class="card-text">4kg €25</p>
-                            <a href="#order-form">ORDER NOW</a>
+                            <!--onclick function will auto-populate product type field in order form-->
+                            <a href="#order-form" onclick="orderProductType('Wexford Sand')">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -240,7 +250,8 @@
                         <div class="card-body">
                             <h4 class="card-title productType">Wicklow Plum</h4>
                             <p class="card-text">2kg €5</p>
-                            <a href="#order-form">ORDER NOW</a>
+                            <!--onclick function will auto-populate product type field in order form-->
+                            <a href="#order-form" onclick="orderProductType('Wicklow Plum')">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
@@ -275,7 +286,7 @@
 
                                     <div class="form-group">
                                         <label class="order-form-text" for="product">Product Type:</label>
-                                        <input name="product" type="text" class="form-control inline-form" id="product" value=" " />
+                                        <input name="product"  id="product" type="text" class="form-control inline-form" value="" />
 
                                         <label class="order-form-text" for="quantity">Choose a Quantity:</label>
                                         <!--onkeyup function will validate quantity entered-->
@@ -304,7 +315,6 @@
     </footer>
     <!--Local JS Script-->
     <script src="assets/js/products.js"></script>
-    <script src="assets/js/orders.js"></script>
 </body>
 
 </html>

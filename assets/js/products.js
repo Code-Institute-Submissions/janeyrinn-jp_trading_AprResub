@@ -64,3 +64,50 @@ for (var i = 0; i < option.length; i++) {
         this.className += " active";
     });
 }
+
+//EmailJS SDK Code: Sends an order email to business owner
+// Code learned and customized from code used by Matt Rudge in "Using EmailJS" CI Tutuorial
+
+function sendMail(contactForm) {
+    emailjs.send("orders_jptrading","orders_jptrading", {
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.emailaddress.value,
+        "product": contactForm.product.value,
+        "quantity": contactForm.quantity.value,
+        "phone": contactForm.phone.value,
+        "order_notes": contactForm.ordernotes.value
+    })
+        .then(
+            function (response) {
+                window.alert('YOUR MESSAGE WAS SENT, SOME ONE WILL CONTACT YOU SHORTLY')
+                console.log("SENT", response);
+            },
+            function (error) {
+                window.alert('YOUR MESSAGE FAILED TO SEND')
+                console.log("NOT SENT", error);
+            });
+    return false;
+}
+
+//Below validates quantity & displays a message if over the max allowed
+
+function validateQuantity() {
+    var txt = "";
+    if (document.getElementById("quantity").validity.rangeOverflow) {
+        txt = "Please call us for orders over 10 units, large orders can not be placed online";
+    } else {
+        txt = " ";
+    }
+    document.getElementById("quantityMsg").innerHTML = txt;
+}
+
+/*Below function auto-populates "Product Type" input field in the order form when
+a "ORDER NOW" link is clicked on a product card. The product type specific to the card will show in the input field*/
+
+function orderProductType(product) {
+
+document.getElementById("product").value = product;   
+
+}
+
+
