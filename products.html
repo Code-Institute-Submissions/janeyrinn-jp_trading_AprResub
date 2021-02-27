@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
     <link rel="stylesheet" href="assets/style.css" type="text/css" />
-
     <!--EamilJS Script Code for the order form-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
     </script>
@@ -282,16 +281,15 @@
                                     <div class="form-group">
                                         <input type="number" class="form-control" name="phone" id="phone"
                                         placeholder="Mobile Number" required/>
-                                        <p id="contactMsg"></p>
                                     </div>
 
                                     <div class="form-group">
                                         <label class="order-form-text" for="product">Product Type:</label>
-                                        <input name="product"  id="product" type="text" class="form-control inline-form" value="" />
+                                        <input name="product"  id="product" type="text" class="form-control inline-form" value="" required/>
 
                                         <label class="order-form-text" for="quantity">Choose a Quantity:</label>
                                         <!--onkeyup function will validate quantity entered-->
-                                        <input name="quantity" type="number" class="form-control inline-form" id="quantity" min="1" max="10" onkeyup="validateQuantity()" />
+                                        <input name="quantity" type="number" class="form-control inline-form" id="quantity" min="1" max="10" onkeyup="validateQuantity()" required />
                                         <p id="quantityMsg"></p>
                                     </div>
                                     <div class="form-group">
@@ -335,7 +333,7 @@
                         <h5 class="modal-title">Order not Sent!</h5>
                     </div>
                     <div class="modal-body">
-                        <p>Your order could not be sent at this time. Please contact our office directly to place your order. Thank you.</p>
+                        <p>Please contact our office directly on 086 123 4567 to place your order. Thank you.</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
