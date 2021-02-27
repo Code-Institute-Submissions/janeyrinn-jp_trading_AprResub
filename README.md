@@ -318,3 +318,4 @@ at pexels.com .
 2. [Search Bar](https://www.youtube.com/watch?v=QTILvEMFqKo&feature=emb_logo)
 3. [Hero Image CSS on Landing/Home Page](https://www.youtube.com/watch?v=FSF2VA1rsI4&t=327s) some properties learned and adapted for the project.
 4. [Search Products Menu](https://www.w3schools.com/howto/howto_js_portfolio_filter.asp) code learned and adpated to suit this feature.
+5. [Form Validtation](https://www.w3schools.com/js/js_validation.asp) code learned and adpated to validate product quantity.
