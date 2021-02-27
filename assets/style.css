@@ -567,3 +567,13 @@ margin-right:20px;
     margin-right:20px;
 }
 }
+
+/*-------------------------- FORM : MODALS */
+
+.modal-title {
+    text-transform: uppercase!important;
+}
+
+.modal-body{
+    font-weight: bold;
+}
