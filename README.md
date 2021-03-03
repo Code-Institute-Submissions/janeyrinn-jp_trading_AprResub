@@ -355,17 +355,17 @@ Bugs found and their fixes can also be found in the excel document.
 
 1. Select the _Repository_ you wish to deploy.
 2. Under the _"Repo"_ name on the top left of the screen
-there is a menu, select the settings tab on this menu ![Menu item](assets/images/read-me/dep-one.png).
+there is a menu, select the settings tab on this menu ![Menu item](assets/read-me/dep-one.png).
 3. Scroll down to the **GitHub Pages** section.
 4. Under **Source** use the **None or Branch** drop down menu to select the 
-publishing source you wish to use. **Main** is recommened. ![Source Image](assets/images/read-me/dep-two.png)
+publishing source you wish to use. **Main** is recommened. ![Source Image](assets/read-me/dep-two.png)
 5. Select **Save** and refresh the page. 
 6. Your published address will appear in a green highlighted container above **Source**.
 7. Click the link to test it works.
 
 #### Making a Clone in GitPod
 1. Select the _Repo_ you wish to clone in GitHub.
-2. Click on the Code dropdown button.![Code Button img](assets/images/read-me/dep-three.png)
+2. Click on the Code dropdown button.![Code Button img](assets/read-me/dep-three.png)
 3. Copy the link to your clipboard.
 4. Open Git Bash.
 5. In the console type _"git clone"_ and paste the copied link.
