@@ -12,8 +12,6 @@ body {
     background-color: black;
 }
 
-
-
 h1, h2{
     font-family: 'Sintony', sans-serif;
     font-weight: 700;
@@ -56,6 +54,7 @@ h4, h5, h6 {
 .general-hero-img {
     background: rgba(0,0,0,0.2)url(images/hero_image.jpg) no-repeat;
     background-position: center;
+    background-attachment: fixed;
     min-height: 50vh;
     overflow: hidden;
     background-blend-mode: overlay;
@@ -71,6 +70,7 @@ h4, h5, h6 {
 @media only screen and (min-width: 992px) {
     .general-hero-img {
     background: rgba(0,0,0,0.2)url(images/hero_image.jpg) no-repeat;
+    background-attachment: fixed;
     background-position: center;
     min-height: 30vh;
     overflow: hidden;
@@ -138,6 +138,7 @@ a.nav-link.hvr-underline-from-center::before {
 .hero-img {
     background: rgba(0,0,0,0.2)url(images/hero_image.jpg) no-repeat;
     background-position: center;
+    background-attachment: fixed;
     min-height: 80vh;
     overflow: hidden;
     background-blend-mode: overlay;
@@ -440,6 +441,7 @@ a.nav-link.hvr-underline-from-center::before {
     padding-top: 40px;
     background: rgba(0,0,0,0.2)url(images/hero_image.jpg) no-repeat;
     background-position: center;
+    background-attachment: fixed;
     min-height: 40vh;
     overflow: hidden;
     background-blend-mode: overlay;
@@ -483,6 +485,7 @@ a.nav-link.hvr-underline-from-center::before {
     padding-top: 40px;
     background: rgba(0,0,0,0.2)url(images/hero_image.jpg) no-repeat;
     background-position: center;
+    background-attachment: fixed;
     min-height: 40vh;
     overflow: hidden;
     background-blend-mode: overlay;
