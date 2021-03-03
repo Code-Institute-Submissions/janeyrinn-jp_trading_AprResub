@@ -1,6 +1,6 @@
 # JP TRADING LTD
 
-![Logo](assets/images/jp_trading_logo.png)
+![Logo](assets/images/logo.png)
 
 Code Institute, Diploma in Full Stack Software Development,
 Milestone Project 2, March 2020.
@@ -53,6 +53,11 @@ while also being of value to the consumer and improving their consumer experienc
 
 ### Design Simulation
 A simulation of the website on desktop and mobile devices can be seen below.
+![Design Simulation](assets/read-me/design-simulation.png)
+
+This live site can be accessed [*here*](https://janeyrinn.github.io/jp_trading/).
+
+*Please note: To open any links in this document in a new browser tab, please press `CTRL + Click`.*
 
 ## User Experience Design
 
@@ -67,7 +72,7 @@ A simulation of the website on desktop and mobile devices can be seen below.
 | have features load quickly | save time |
 | view the site on different screen sizes| use it at home or on the go |
 | learn about the company background/offering| assess whether it is suitable for my needs/something I would like to support | 
-| search a list of available products| can save time scrolling and easily find what I need|
+| filter a list of available products| can save time scrolling and easily find what I need|
 | price check items | quickly assess if the product is good value & cut down on talk time with a sales person |
 | order online | make purchases out of hours |
 | find the trading hours| assess whether they suit my availability |
@@ -91,7 +96,7 @@ A simulation of the website on desktop and mobile devices can be seen below.
 
 **Skeleton**
 
-The site will be made up of four pages with one main section
+The site will be made up of three pages with one to two main sections
 per page, all pages will have a 'sticky' navigation bar at the top and a small copyright footer.
 
 **Information Architecture**
@@ -99,39 +104,38 @@ per page, all pages will have a 'sticky' navigation bar at the top and a small c
 The home page will consist of a large hero image with an animated text introduction of the 
 business. This will describe the business and the services available. Icons traditionally
 associated with the services offered will be displayed lower down and will reinforce
-this information allowing the information to be easily assimilated by the user. 
+this information allowing the information to be easily assimilated by the user.
 
 The second page will be a gallery of current products in stock with some pricing information.
-There will be a feature to quick search through the products. A call to action message will be created
-on each product card. This call to action will link the user to an order form.
+There will be a feature to filter through the products. A call to action link will be
+on each product card. This call to action will link the user to an order form lower down the page.
 
-The third page will be an order form. 
-
-The fourth page will provide contact information, the premise location and a contact form.
+The third page will provide contact information, the premise location and a contact form.
 
 **Interaction Design**
 
-The navigation bar will highlight on hover and active status.
+The navigation bar will highlight and underline on hover and highlight only on active status.
 
-The text introduction on the home page will be animated, with a short paragraph 
-of information. Icons on the homepage will display discriptive text when clicked.
+The text introduction on the home page will be animated on loading, with the company name and a short sentence
+of information. Icons on the homepage will change colour on hover and
+will display discriptive text when double clicked.
 
 The user will be able to interact with the data on the second page by searching through the products available
-and place an order.
+using filtering buttons and place an order though an emailJS order form.
 
-The order form will total the order cost and populate the product name from the
-clicked link.
+The order form will pre-populate the product type field from the clicked link in the product card. The form 
+will also validate the quantity for the business and alert the customer if the quantity is to large for an online order.
 
-On the third page the user will be able to send an email to the business and view the location of its premise.
+On the third page the user will be able to send an email to the business via emailJS and view the location of its premise on Google Maps.
 A confirmation message will display when the email has been sent successfully or an error if unsuccessfull.
 
 #### Wireframes
 A mock up of how the site will be layed out is available here via [Wire Frames](assets/read_me/wire_frames.pdf).
 
-*Please note: To open any links in this document in a new browser tab, please press `CTRL + Click`.*
+*Please press `CTRL + Click` to open in a new window.*
 
 #### Color Scheme
-![Color Swatch](assets/read_me/color_swatch.png)
+![Color Swatch](assets/read-me/color-swatch.png)
 The above color swatch shows a guide line for the color scheme of the site, 
 Colors are brand colours which have been adopted for the following reasons:
 
@@ -151,12 +155,12 @@ The Sintony font, created by *Eduardo Rodriguez Tunn* for [Google Fonts](https:/
 and for headings, alternating between regular and bold. Its slightly square and smooth structure lends well to bolder headings, 
 demanding the readers attention.
 
-![Heading Font](assets/read_me/heading_font.png)
+![Heading Font](assets/read-me/heading-font.png)
 
 Montserrat which is designed by *Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly* and also 
 available on Google Fonts, will be the secondary font used for the main body of text and sub headings. 
 
-![Body Font](assets/read_me/body_font.png)
+![Body Font](assets/read-me/body-font.png)
 
 Sans Serif will be the fallback font if for any reason the main fonts are not being imported 
 or displayed correctly. Sintony is a variation of Sans Serif, if the chosen font should
@@ -174,18 +178,22 @@ photographers and sources please see the [credits](#credits) section.
 
 #### Design Limitations
 
-!!!!(TBA)!!!
+In the future we would like to add an option for the customer to create a customer account to keep track of their orders and for the businesses 
+marketing purposes. A payment feature would also be added to the order form.
 
 #### Design Differences from Conception
 
-!!!!(TBA)!!!
+Originally there had not been a plan for an order form, at the time of the creation of the Wire Frames, but I felt the addition added significant value for the 
+consumer and the business. The form has sense been added to the products page. 
+Hero images have also been added to the products and contact page after desgin conception, they improve the asthetics of each page.
+
 
 ## Features
 
  1. Responsive to different screen sizes.
  2. Supported by Chrome, Microsoft Edge and Firefox browsers.
  3. Adapted for users with special accessibility requirements where possible.
- 4. There will be four pages: Home page, Browse products page, Order page and a Contact page.
+ 4. There will be three pages: Home page, Products page and a Contact page.
 
         - Each page will have a navigation header.
         - Each page will have a footer.
@@ -207,19 +215,21 @@ photographers and sources please see the [credits](#credits) section.
         - Animated informative text.
         - Interactive icons.
 
-7. The Browse Products page will have:
+7. The Products page will have:
 
         - A hero image image & text banner.
-        - A search functionality for products.
-        - On loading cards displaying all product images, text and a link to order.
+        - A filter functionality for products.
+        - On load: cards displaying all product images, text and a link to order.
+        - An order form.
+        - A confirmation or error alert on submission for the form.
 
 8. The Contact Page will have:
 
         - A hero image image & text banner.
-        - A google map API.
-        - An email API.
+        - A google map displaying the premise location.
+        - A messaging service.
+        - A confirmation or error alert on submission for the contact form.
         - Informative text.
-        - A confirmation or error alert for the contact form.
 
 9. The Contact Form wil have:
 
@@ -228,7 +238,7 @@ photographers and sources please see the [credits](#credits) section.
         - All inputs will be mandatory and display an error message if a field is missing on submission.
         - The border wil be yellow and of a 1-2px weight when hovered over.
         - The submission button will have a Send it! value.
-        - The button will be yellow with black text on hover.
+        - The button will be yellow on hover.
 
 10. The Search Bar will be:
 
@@ -239,7 +249,12 @@ photographers and sources please see the [credits](#credits) section.
 
 11. The Order Form:
 
-        - TBA!!!!!!!!
+        - The form will be black with white fields and a transparent button.
+        - Fields will include : name, email, mobile number, product type, quantity and text area input.
+        - All inputs will be mandatory and display an error message if a field is missing on submission.
+        - The border wil be yellow and of a 1-2px weight when hovered over.
+        - The submission button will have a Send it! value.
+        - The button will be yellow on hover.
 
 12. The footer will have:
 
@@ -287,14 +302,80 @@ _General sources of information for structure functionality and styling._
 
 ### Code Validity
 
+The semantics and validity of the code used was passed through the three validators mentioned below and passed all tests with out error or warnings.
+
 1. [W3C](https://validator.w3.org/) used to validate HTML code.
 2. [W3c Jigsaw](https://jigsaw.w3.org/css-validator/) used to validate CSS code.
 3. [JS Hint](https://jshint.com/) used to validate JavaScript code.
 
+The entire site was tested under the three premises of :
+
+        > User Stories
+        > Strategic Purpose
+        > Features
+
+Testing was done on three browsers; Chome v88, MicroSoft Edge v88 and FireFox v83 on the below screen sizes:
+
+> **Chrome & Microsoft Edge**
+> - Moto G4 (640 x 360)
+> - Galaxy S5 (360 x 640)
+> - Pixel 2 (411 x 731)
+> - Pixel 2 XL (411 x 823)
+> - iPhone 5/SE (320 x 568)
+> - iPhone 6/7/8 (375 x 667)
+> - iPhone 6/7/8 Plus (414 x 736)
+> - iPhone X (375 x 812)
+> - iPad (768 x 1024)
+> - iPad Pro (1024 x 1366)
+> - Surface Duo (540 x 720)
+> - Galaxy Fold (280 x 653)
+> - Laptop (1440 x 900)
+
+> **Mozilla Fire Fox**
+> - Galaxy Note 3 (360 x 640)
+> - Galaxy Note 9 (414 x 846)
+> - Galaxy S5 (360 x 640)
+> - Galaxy S9 (360 x 740)
+> - iPad (768 x 1024)
+> - iPad Pro (1024 x 1366)
+> - iPhone 5/SE (320 x 568)
+> - iPhone 6/7/8 (375 x 667)
+> - iPhone 6/7/8 Plus (414 x 736)
+> - iPhone X/XS (375 x 812)
+> - i Phone XR (414 x 896)
+> - Laptop (1440 x 900)
+
+Testing was documented using Microsoft Excel and the full spreadsheet can be found [here](/assets/).
+Bugs found and their fixes can also be found in the excel document.
+
 
 ## Deployment
 
-!!!!!TBA
+#### Deployment via GitHub Pages
+
+1. Select the _Repository_ you wish to deploy.
+2. Under the _"Repo"_ name on the top left of the screen
+there is a menu, select the settings tab on this menu ![Menu item](assets/images/read-me/dep-one.png).
+3. Scroll down to the **GitHub Pages** section.
+4. Under **Source** use the **None or Branch** drop down menu to select the 
+publishing source you wish to use. **Main** is recommened. ![Source Image](assets/images/read-me/dep-two.png)
+5. Select **Save** and refresh the page. 
+6. Your published address will appear in a green highlighted container above **Source**.
+7. Click the link to test it works.
+
+#### Making a Clone in GitPod
+1. Select the _Repo_ you wish to clone in GitHub.
+2. Click on the Code dropdown button.![Code Button img](assets/images/read-me/dep-three.png)
+3. Copy the link to your clipboard.
+4. Open Git Bash.
+5. In the console type _"git clone"_ and paste the copied link.
+6. Hit enter to create the clone.
+
+    - To view what the code will look like in a browser from here type _" python3 -m http.server"_
+into the console and hit enter.
+    - A pop up will appear stating "A service is available on Port 8000" select **Open Browser**.
+
+
 
 ## Credits
 
