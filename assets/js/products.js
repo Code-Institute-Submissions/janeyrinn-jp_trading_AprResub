@@ -88,7 +88,9 @@ function sendMail(contactForm) {
     return false;
 }
 
-//Below validates quantity & displays a message if over the max allowed
+
+
+//Below validates quantity against the max attribute & displays a message if over the max allowed
 
 function validateQuantity() {
     var txt = "";
