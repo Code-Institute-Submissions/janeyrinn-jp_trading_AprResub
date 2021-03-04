@@ -18,7 +18,7 @@ Milestone Project 2, March 2020.
         * [Typography](#typography)
         * [Imagery](#imagery)
         * [Design Limitations](#design-limitations)
-        * [Design Differences](#design-differences)
+        * [Design Differences from Conception](#design-differences-from-conception)
 3. [Features](#features)
 4. [Technologies](#technologies)
 5. [Testing](#testing)
