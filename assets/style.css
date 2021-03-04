@@ -134,6 +134,7 @@ a.nav-link.hvr-underline-from-center::before {
 }
 
 /*----------------------------------------------------------HOME PAGE*/
+/* Some of the below class was learned from Learn Design channel tutorial on YouTube & customized*/
 
 .hero-img {
     background: rgba(0,0,0,0.2)url(images/hero.jpg) no-repeat;
@@ -151,8 +152,14 @@ a.nav-link.hvr-underline-from-center::before {
     background-size: cover;
     z-index: 0;
 }
-/* Some of the above class rule was learned from Learn Design channel tutorial on YouTube & customized*/
 
+/* Code from Stack Overflow to fix pixelation on Safari*/
+
+@supports (-webkit-touch-callout: none) { 
+    .hero-img {
+    background-attachment: scroll; 
+} 
+}
 /*--------------------------HOME PAGE: INTRO TEXT */
 .intro {
     max-width: 55%;
@@ -454,6 +461,14 @@ a.nav-link.hvr-underline-from-center::before {
     background-size: cover;
 }
 
+/* Code from Stack Overflow to fix pixelation on Safari*/
+
+@supports (-webkit-touch-callout: none) { 
+    #contact-form {
+    background-attachment: scroll; 
+} 
+}
+
 .send-form-btn {
     padding: 10px;
     color: white;
@@ -498,6 +513,13 @@ a.nav-link.hvr-underline-from-center::before {
     background-size: cover;
 }
 
+/* Code from Stack Overflow to fix pixelation on Safari*/
+
+@supports (-webkit-touch-callout: none) { 
+    #order-form {
+    background-attachment: scroll; 
+} 
+}
 
 .order-form-btn {
     padding: 10px;
