@@ -91,8 +91,9 @@ This live site can be accessed [*here*](https://janeyrinn.github.io/jp_trading/)
 | Provide an online order service | to increase trading hours |
 | Provide a  structured means of contact| to reduce calls|
 
-### Design
-#### Structure
+## Design
+
+### Structure
 
 **Skeleton**
 
@@ -129,12 +130,12 @@ will also validate the quantity for the business and alert the customer if the q
 On the third page the user will be able to send an email to the business via emailJS and view the location of its premise on Google Maps.
 A confirmation message will display when the email has been sent successfully or an error if unsuccessfull.
 
-#### Wireframes
+### Wireframes
 A mock up of how the site will be layed out is available here via [Wire Frames](assets/read_me/wire_frames.pdf).
 
 *Please press `CTRL + Click` to open in a new window.*
 
-#### Color Scheme
+### Color Scheme
 ![Color Swatch](assets/read-me/color-swatch.png)
 The above color swatch shows a guide line for the color scheme of the site, 
 Colors are brand colours which have been adopted for the following reasons:
@@ -149,7 +150,7 @@ This colour combination is a classic pairing used in by many well known fire fue
 instils a sense of brand establishment and reliabilty in the subconscious of the consumer by association with
 well known brands. 
 
-#### Typography
+### Typography
 
 The Sintony font, created by *Eduardo Rodriguez Tunn* for [Google Fonts](https://fonts.google.com/) will be the main font for the company name 
 and for headings, alternating between regular and bold. Its slightly square and smooth structure lends well to bolder headings, 
@@ -168,7 +169,7 @@ not display the back up font should blend seamlessly.
 
 Both fonts are easily readable with strong straight lines which should be easily read by the user.
 
-#### Imagery
+### Imagery
 
 Branding is an important design and marketing tool for establishing your business in the mind of the user.
 A logo was created using [canva.com](https://www.canva.com/). Consistant imagery inline with the businesses
@@ -176,12 +177,12 @@ offering was used through out the site to reinforce that brand identity and conv
 intuitively. Images were sourced from open source sites or were provided by JP.Trading. For a detailed list of 
 photographers and sources please see the [credits](#credits) section.
 
-#### Design Limitations
+### Design Limitations
 
 In the future we would like to add an option for the customer to create a customer account to keep track of their orders and for the businesses 
 marketing purposes. A payment feature would also be added to the order form.
 
-#### Design Differences from Conception
+### Design Differences from Conception
 
 Originally there had not been a plan for an order form, at the time of the creation of the Wire Frames, but I felt the addition added significant value for the 
 consumer and the business. The form has sense been added to the products page. 
@@ -311,7 +312,7 @@ The semantics and validity of the code used was passed through the three validat
 The entire site was tested under the three premises of :
 
         > User Stories
-        > Strategic Purpose
+        > Business Objective
         > Features
 
 Testing was done on three browsers; Chome v88, MicroSoft Edge v88 and FireFox v83 on the below screen sizes:
@@ -355,17 +356,26 @@ Bugs found and their fixes can also be found in the excel document.
 
 1. Select the _Repository_ you wish to deploy.
 2. Under the _"Repo"_ name on the top left of the screen
-there is a menu, select the settings tab on this menu ![Menu item](assets/read-me/dep-one.png).
+there is a menu, select the settings tab on this menu 
+
+![Menu item](assets/read-me/dep-one.png)
+
 3. Scroll down to the **GitHub Pages** section.
 4. Under **Source** use the **None or Branch** drop down menu to select the 
-publishing source you wish to use. **Main** is recommened. ![Source Image](assets/read-me/dep-two.png)
+publishing source you wish to use **Main** is recommened. 
+
+![Source Image](assets/read-me/dep-two.png)
+
 5. Select **Save** and refresh the page. 
 6. Your published address will appear in a green highlighted container above **Source**.
 7. Click the link to test it works.
 
 #### Making a Clone in GitPod
 1. Select the _Repo_ you wish to clone in GitHub.
-2. Click on the Code dropdown button.![Code Button img](assets/read-me/dep-three.png)
+2. Click on the Code dropdown button.
+
+![Code Button img](assets/read-me/dep-three.png)
+
 3. Copy the link to your clipboard.
 4. Open Git Bash.
 5. In the console type _"git clone"_ and paste the copied link.
@@ -374,7 +384,6 @@ publishing source you wish to use. **Main** is recommened. ![Source Image](asset
     - To view what the code will look like in a browser from here type _" python3 -m http.server"_
 into the console and hit enter.
     - A pop up will appear stating "A service is available on Port 8000" select **Open Browser**.
-
 
 
 ## Credits
