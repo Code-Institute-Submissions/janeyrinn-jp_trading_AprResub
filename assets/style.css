@@ -85,6 +85,12 @@ h4, h5, h6 {
 }
 }
 
+@supports (-webkit-touch-callout: none) { 
+    .general-hero-img {
+    background-attachment: scroll; 
+} 
+}
+
 /*----------------------------------------------------------NavBar*/
 
 .bg-dark {
