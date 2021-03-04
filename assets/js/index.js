@@ -32,6 +32,3 @@ function toggleQuality() {
     element.style.display = "none";
   }
 }
-
-
-

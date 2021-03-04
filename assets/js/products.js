@@ -12,7 +12,7 @@ function toggleSearch() {
 // The below was found at w3schools and customized.
 //It will allow the filter buttons functionality, when the selected option value = Firefuels then display items with a class of fireFuels
 
-filterCategories('allProducts') 
+filterCategories('allProducts')
 
 function filterCategories(category) {
     var x, i;
@@ -69,7 +69,7 @@ for (var i = 0; i < option.length; i++) {
 // Code learned and customized from code used by Matt Rudge in "Using EmailJS" CI Tutuorial
 
 function sendMail(contactForm) {
-    emailjs.send("orders_jptrading","orders_jptrading", {
+    emailjs.send("orders_jptrading", "orders_jptrading", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "product": contactForm.product.value,
@@ -77,7 +77,7 @@ function sendMail(contactForm) {
         "phone": contactForm.phone.value,
         "order_notes": contactForm.ordernotes.value
     })
-    //This section will call a the modal on un/successful submission of the form
+        //This section will call a the modal on un/successful submission of the form
         .then(
             function (response) {
                 $('#successModal').modal('show');
@@ -107,7 +107,7 @@ a "ORDER NOW" link is clicked on a product card. The product type specific to th
 
 function orderProductType(product) {
 
-document.getElementById("product").value = product;   
+    document.getElementById("product").value = product;
 
 }
 
