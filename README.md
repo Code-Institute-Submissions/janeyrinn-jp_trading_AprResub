@@ -48,7 +48,9 @@ It should be an asset to the business to increase growth,
 while also being of value to the consumer and improving their consumer experience.
 
 ### Design Simulation
+
 A simulation of the website on desktop and mobile devices can be seen below.
+
 ![Design Simulation](assets/read-me/design-simulation.png)
 
 This live site can be accessed [*here*](https://janeyrinn.github.io/jp_trading/).
@@ -272,7 +274,7 @@ Hero images have also been added to the products and contact page after design c
   2. [Git Hub](https://github.com/about) Used to store, version control, and to share the project's code.
   2. [Git/GitPod](https://www.gitpod.io/#:~:text=Gitpod%20is%20a%20multi%2Dservice,their%20own%20dedicated%20K8s%20deployment.) Code, build, debug and run K8s applications entirely in the cloud.
   3. [Bootstrap](https://getbootstrap.com/) Used for responsiveness and styling of the site.
-  4. [JQuery](https://jquery.com/)Javascript library
+  4. [JQuery](https://jquery.com/) Javascript library
   5. [Google Fonts](https://fonts.google.com/) Used to import fonts.
   6. [Font Awesome](https://fontawesome.com/v4.7.0/) Used for icons.
   7. [AOS Library](https://michalsnik.github.io/aos/) & [AOS Guide](https://www.sitepoint.com/cool-scroll-animations-made-easy-aos-library/) Used for animation on landing page intro text. 
@@ -295,6 +297,7 @@ _General sources of information for structure functionality and styling._
 1. [MDN Web Docs](https://developer.mozilla.org/)
 2. [Youtube](https://www.youtube.com/)
 3. [W3 Schools](https://www.w3schools.com/js/default.asp)
+4. Code Institute, Full Stack Development course material.
 
 ## Testing
 
@@ -345,8 +348,11 @@ Testing was done on three browsers; Chome v88, MicroSoft Edge v88 and FireFox v8
 > - i Phone XR (414 x 896)
 > - Laptop (1440 x 900)
 
-Testing was documented using Microsoft Excel and the full spreadsheet can be found [*here*](assets/read-me/testing.xlsx)
-Bugs found and their fixes can also be found in the excel document.
+The site was tested for Safari using an iPhone 11 but I could not test other screen sizes on this device.
+
+Testing was documented using Microsoft Excel and the full spreadsheet can be found [*here*](assets/read-me/testing.xlsx).
+
+Bugs found in the code and their fixes can also be found in the excel document.
 
 
 ## Deployment
@@ -408,6 +414,7 @@ at pexels.com .
 3. [Search Products Menu](https://www.w3schools.com/howto/howto_js_portfolio_filter.asp) code learned and adapted to suit this feature.
 4. [Form Validtation](https://www.w3schools.com/js/js_validation.asp) code learned and adapted to validate product quantity.
 5. [Text Animation](https://www.sitepoint.com/cool-scroll-animations-made-easy-aos-library/) learned how to use the AOS Library.
+6. [IOS Specific Media Query](https://stackoverflow.com/questions/30102792/css-media-query-to-target-only-ios-devices).
 
 ### Color Psychology
 
