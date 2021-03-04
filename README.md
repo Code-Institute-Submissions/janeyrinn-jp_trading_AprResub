@@ -131,7 +131,7 @@ On the third page, the user will be able to send an email to the business via em
 A confirmation message will display when the email has been sent successfully or an error if unsuccessful.
 
 ### Wireframes
-A mock-up of how the site will be laid out is available here via [Wire Frames](assets/read_me/wire_frames.pdf).
+A mock-up of how the site will be laid out is available here via [Wire Frames](assets/read-me/wireframes.pdf).
 
 *Please press `CTRL + Click` to open in a new window.*
 
