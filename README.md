@@ -345,7 +345,7 @@ Testing was done on three browsers; Chome v88, MicroSoft Edge v88 and FireFox v8
 > - i Phone XR (414 x 896)
 > - Laptop (1440 x 900)
 
-Testing was documented using Microsoft Excel and the full spreadsheet can be found ![*here*](assets/read-me/testing.xlsx)
+Testing was documented using Microsoft Excel and the full spreadsheet can be found [*here*](assets/read-me/testing.xlsx)
 Bugs found and their fixes can also be found in the excel document.
 
 
