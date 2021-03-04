@@ -22,19 +22,15 @@ Milestone Project 2, March 2020.
 3. [Features](#features)
 4. [Technologies](#technologies)
 5. [Testing](#testing)
-    * [Funtionality and Features](#Funtionality-and-Features)
-    * [User Stories Test](#User-Stories-Test)
-    * [Strategic Purpose Test](#Strategic-Purpose-Test)
-    * [Bugs and Fixes](#Bugs-and-Fixes)
-    * [Testing Limitations](#Testing-Limitations)
+    * [Code Validity](#code-validity)
+    * [Testing Premise](#testing-premise)
 6. [Deployment](#deployment)
     * [Deployment via GitHub Pages](#Deployment-via-GitHub-Pages)
     * [Making a Clone in GitPod](#Making-a-Clone-in-GitPod)
 7. [Credits](#credits)
     * [Images](#Images)
-    * [Content](#Content)
-    * [Color Psychology](#Color-Psychology)
     * [Code](#Code)
+    * [Color Psychology](#Color-Psychology)
     * [Acknowledgements](#Acknowledgements)
 
 ## Overview
@@ -309,6 +305,8 @@ The semantics and validity of the code used were passed through the three valida
 1. [W3C](https://validator.w3.org/) used to validate HTML code.
 2. [W3c Jigsaw](https://jigsaw.w3.org/css-validator/) used to validate CSS code.
 3. [JS Hint](https://jshint.com/) used to validate JavaScript code.
+
+### Testing Premise
 
 The entire site was tested under the three premises of :
 
