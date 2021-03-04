@@ -414,7 +414,8 @@ at pexels.com .
 1. [Black](https://www.empower-yourself-with-color-psychology.com/color-black.html).
 2. [Yellow]( https://www.empower-yourself-with-color-psychology.com/yellow-in-business.html).
 
-#### Acknowledgements
+### Acknowledgements
+
 Special thanks to:
 1. The tutors at Code Institute for their guidance and support.
 2. My mentor Rohit Sharma for his guidance and advice throughout.
