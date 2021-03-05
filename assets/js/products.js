@@ -12,7 +12,7 @@ function toggleSearch() {
 // The below was found at w3schools and customized.
 //It will allow the filter buttons functionality, when the selected option value = Firefuels then display items with a class of fireFuels
 
-filterCategories('allProducts')
+filterCategories('allProducts');
 
 function filterCategories(category) {
     var x, i;
@@ -57,13 +57,16 @@ function removeClass(element, name) {
 
 var searchCategories = document.getElementById("search-categories");
 var option = searchCategories.getElementsByClassName("option");
+
 for (var i = 0; i < option.length; i++) {
-    option[i].addEventListener("click", function () { // ASK ROHIt	Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. 
-        var current = searchCategories.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
-    });
+    option[i].addEventListener("click", currentBtnClickListener);
 }
+
+var currentBtnClickListener = function () { // referencing an outer scoped variable may lead to confusing semantics. 
+    var current = searchCategories.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+};
 
 //EmailJS SDK Code: Sends an order email to business owner
 // Code learned and customized from code used by Matt Rudge in "Using EmailJS" CI Tutuorial
