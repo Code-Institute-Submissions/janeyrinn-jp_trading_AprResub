@@ -352,8 +352,29 @@ The site was tested for Safari using an iPhone 11 but I could not test other scr
 
 Testing was documented using Microsoft Excel and the full spreadsheet can be found [*here*](testing/testing.xlsx).
 
-Bugs found in the code and their fixes can also be found in the excel document.
+Bugs found in the code and their fixes can also be found in the Excel document.
 
+#### Users Stories
+
+![User Stories](testing/user-stories.png)
+
+#### Business Objectives
+
+![Business Objectives](testing/bus-objectives.png)
+
+#### Features
+
+![Features](testing/features-one.png)
+
+![Features](testing/features-two.png)
+
+#### Bugs and Fixes
+
+![Bugs & Fixes](testing/bug-one.png)
+
+![Bugs & Fixes](testing/bug-two.png)
+
+![Bugs & Fixes](testing/bug-three.png)
 
 ## Deployment
 
