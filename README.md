@@ -129,12 +129,12 @@ On the third page, the user will be able to send an email to the business via em
 A confirmation message will display when the email has been sent successfully or an error if unsuccessful.
 
 ### Wireframes
-A mock-up of how the site will be laid out is available here via [Wire Frames](assets/read-me/wireframes.pdf).
+A mock-up of how the site will be laid out is available here via [Wire Frames](wireframes/wireframes.pdf).
 
 *Please press `CTRL + Click` to open in a new window.*
 
 ### Color Scheme
-![Color Swatch](assets/read-me/color-swatch.png)
+![Color Swatch](read-me/color-swatch.png)
 The above color swatch shows a guideline for the color scheme of the site, 
 Colors are brand colours that have been adopted for the following reasons:
 
@@ -154,12 +154,12 @@ The Sintony font, created by *Eduardo Rodriguez Tunn* for [Google Fonts](https:/
 and headings, alternating between regular and bold. Its slightly square and smooth structure lends well to bolder headings, 
 demanding the reader's attention.
 
-![Heading Font](assets/read-me/heading-font.png)
+![Heading Font](read-me/heading-font.png)
 
 Montserrat which is designed by *Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral, Jacques Le Bailly* and also 
 available on Google Fonts, will be the secondary font used for the main body of text and subheadings. 
 
-![Body Font](assets/read-me/body-font.png)
+![Body Font](read-me/body-font.png)
 
 Sans Serif will be the fallback font if for any reason the main fonts are not being imported 
 or displayed correctly. Sintony is a variation of Sans Serif, if the chosen font should
@@ -350,7 +350,7 @@ Testing was done on three browsers; Chome v88, MicroSoft Edge v88 and FireFox v8
 
 The site was tested for Safari using an iPhone 11 but I could not test other screen sizes on this device.
 
-Testing was documented using Microsoft Excel and the full spreadsheet can be found [*here*](assets/read-me/testing.xlsx).
+Testing was documented using Microsoft Excel and the full spreadsheet can be found [*here*](testing/testing.xlsx).
 
 Bugs found in the code and their fixes can also be found in the excel document.
 
@@ -363,13 +363,13 @@ Bugs found in the code and their fixes can also be found in the excel document.
 2. Under the _"Repo"_ name on the top left of the screen
 there is a menu, select the settings tab on this menu 
 
-![Menu item](assets/read-me/dep-one.png)
+![Menu item](read-me/dep-one.png)
 
 3. Scroll down to the **GitHub Pages** section.
 4. Under **Source** use the **None or Branch** drop-down menu to select the 
 publishing source you wish to use **Main** is recommended. 
 
-![Source Image](assets/read-me/dep-two.png)
+![Source Image](read-me/dep-two.png)
 
 5. Select **Save** and refresh the page. 
 6. Your published address will appear in a green highlighted container above **Source**.
@@ -379,7 +379,7 @@ publishing source you wish to use **Main** is recommended.
 1. Select the _Repo_ you wish to clone in GitHub.
 2. Click on the Code dropdown button.
 
-![Code Button img](assets/read-me/dep-three.png)
+![Code Button img](read-me/dep-three.png)
 
 3. Copy the link to your clipboard.
 4. Open Git Bash.
@@ -387,7 +387,7 @@ publishing source you wish to use **Main** is recommended.
 6. Hit enter to create the clone.
 
     - To view what the code will look like in a browser from here type _" python3 -m http.server"_
-into the console and hit enter.
+        into the console and hit enter.
     - A pop-up will appear stating "A service is available on Port 8000" select **Open Browser**.
 
 
