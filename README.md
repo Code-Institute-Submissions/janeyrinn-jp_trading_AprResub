@@ -51,7 +51,7 @@ while also being of value to the consumer and improving their consumer experienc
 
 A simulation of the website on desktop and mobile devices can be seen below.
 
-![Design Simulation](assets/read-me/design-simulation.png)
+![Design Simulation](read-me/design-simulation.png)
 
 This live site can be accessed [*here*](https://janeyrinn.github.io/jp_trading/).
 
