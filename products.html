@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
     <link rel="stylesheet" href="assets/style.css" type="text/css" />
-    <!--EamilJS Script Code for the order form-->
+    <!--EmailJS Script Code for the order form-->
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
     </script>
     <script>
@@ -98,7 +98,6 @@
     </section>
 
     <!--Start of Product Catalogue: cards taken from Bootstrap-->
-
     <section id="catalogue">
         <div class="container">
             <div class="row justify-content-center">
@@ -274,8 +273,10 @@
                                 <!--onsubmit will send the form to an email address-->
                                 <form name="orderForm" onsubmit="return sendMail(this);">
                                     <div class="form-group">
+                                        <!--onkeyup will validate the contents of the input-->
                                         <input name="name" type="text" class="form-control" id="name"
-                                            placeholder="Your Name" required />
+                                            onkeyup="validateName()" placeholder="Your Name" required />
+                                        <p id="nameMsg"></p>
                                     </div>
                                     <div class="form-group">
                                         <input name="emailaddress" type="email" class="form-control" id="email_address"

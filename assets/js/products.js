@@ -1,4 +1,4 @@
-// The below will hide and show the search bar on clicking
+// The below will hide and show the filter options on clicking
 
 function toggleSearch() {
     var element = document.getElementById("search-menu");
@@ -10,7 +10,7 @@ function toggleSearch() {
 }
 
 // The below was found at w3schools and customized.
-//It will allow the filter buttons functionality, when the selected option value = Firefuels then display items with a class of fireFuels
+//It will allow the filter buttons functionality, e.g. when the selected option value = Firefuels then display items with a class of fireFuels
 
 filterCategories('allProducts');
 
@@ -62,7 +62,7 @@ for (var i = 0; i < option.length; i++) {
     option[i].addEventListener("click", currentBtnClickListener);
 }
 
-var currentBtnClickListener = function () { // referencing an outer scoped variable may lead to confusing semantics. 
+var currentBtnClickListener = function () { 
     var current = searchCategories.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
@@ -91,9 +91,23 @@ function sendMail(contactForm) {
     return false;
 }
 
+//Below validates the name so that it must contain more than an escape/space 
 
+function validateName() {
 
-//Below validates quantity against the max attribute & displays a message if over the max allowed
+    var x = document.getElementById("name").value;
+    var nameFail = "Name must be filled out";
+    var namePass = "";
+
+    if (x == " ") {
+        document.getElementById("nameMsg").innerHTML = nameFail;
+        } 
+        else {
+            document.getElementById("nameMsg").innerHTML = namePass;
+        }
+}
+
+//Below validates quantity against the max attribute & displays a message if over the max allowed or under the minimum 
 
 function validateQuantity() {
     var txt = "";
