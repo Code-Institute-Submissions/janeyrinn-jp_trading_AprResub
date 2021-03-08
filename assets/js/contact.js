@@ -31,7 +31,7 @@ function sendMail(contactForm) {
         "from_email": contactForm.emailaddress.value,
         "general_query": contactForm.generalquery.value
     })
-        //This section will call a the modal on un/successful submission of the form
+        //This section will call a modal on un/successful submission of the form
         .then(
             function (response) {
                 $('#successModal').modal('show');
@@ -40,4 +40,20 @@ function sendMail(contactForm) {
                 $('#errorModal').modal('show');
             });
     return false;
+}
+
+//Below validates the name so that it must contain more than an escape/space 
+
+function validateName() {
+
+    var x = document.getElementById("name").value;
+    var nameFail = "Name must be filled out";
+    var namePass = "";
+
+    if (x == " ") {
+        document.getElementById("nameMsg").innerHTML = nameFail;
+    }
+    else {
+        document.getElementById("nameMsg").innerHTML = namePass;
+    }
 }

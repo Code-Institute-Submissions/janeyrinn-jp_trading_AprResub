@@ -112,8 +112,10 @@
                                 <!--onsubmit function will send the message to business email-->
                                 <form onsubmit="return sendMail(this);">
                                     <div class="form-group">
-                                        <input name="name" type="text" class="form-control" id="name"
+                                        <!--onkeyup function will validate the name input-->
+                                        <input name="name" type="text" class="form-control" id="name" onkeyup="validateName()"
                                             placeholder="Your Name" required />
+                                            <p id="nameMsg"></p>
                                     </div>
                                     <div class="form-group">
                                         <input name="emailaddress" type="email" class="form-control" id="emailaddress"
