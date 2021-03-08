@@ -234,10 +234,11 @@ Hero images have also been added to the products and contact page after design c
 
         - The form will be black with white fields and a transparent button.
         - A name, email, and text area input.
-        - All inputs will be mandatory and display an error message if a field is missing on submission.
+        - All inputs will be mandatory and display an error message if a field is missing or incorrect on submission.
         - The border will be yellow and of a 1-2px weight when hovered over.
         - The submission button will have a Send it! value.
         - The button will be yellow on hover.
+        - A modal message to signal successful or unsuccessful submission.
 
 10. The Search Bar will be:
 
@@ -250,10 +251,11 @@ Hero images have also been added to the products and contact page after design c
 
         - The form will be black with white fields and a transparent button.
         - Fields will include a name, email, mobile number, product type, quantity, and text area input.
-        - All inputs will be mandatory and display an error message if a field is missing on submission.
+        - All inputs will be mandatory and display an error message if a field is missing or incorrect on submission.
         - The border will be yellow and of a 1-2px weight when hovered over.
         - The submission button will have a Send it! value.
         - The button will be yellow on hover.
+        - A modal message to signal successful or unsuccessful submission.
 
 12. The footer will have:
 
