@@ -354,6 +354,12 @@ The site was tested for Safari using an iPhone 11 but I could not test other scr
 
 Testing was documented using Microsoft Excel and the full spreadsheet can be found [*here*](testing/testing.xlsx).
 
+The live site  was also analysed using Google Developer Tools Lighthouse feature, where it scored highly for accessibility, best practices and SEO.
+The performance of the site scored in the median range despite all images being compressed and sized to the best of the developers ability. Further adjustments to improve this rating
+are outside the scope of the assignment and the developers skill set at this time but will be researched and improved going forward.
+
+![Lighthouse Results](testing/lighthouse.png)
+
 Bugs found in the code and their fixes can also be found in the Excel document.
 
 #### Users Stories
