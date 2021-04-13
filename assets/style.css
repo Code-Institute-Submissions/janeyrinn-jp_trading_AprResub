@@ -315,11 +315,7 @@ a.nav-link.hvr-underline-from-center::before {
 
 .search-container-text:hover {
     color: #F2E205;
-}
-
-#search-menu {
-    display: none;
-}
+} 
 
 .filter-btn {
     font-style: italic;

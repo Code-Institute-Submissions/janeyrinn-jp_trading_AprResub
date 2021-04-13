@@ -1,14 +1,3 @@
-// The below will hide and show the filter options on clicking
-
-function toggleSearch() {
-    var element = document.getElementById("search-menu");
-    if (element.style.display === "none") {
-        element.style.display = "block";
-    } else {
-        element.style.display = "none";
-    }
-}
-
 // The below was found at w3schools and customized.
 //It will allow the filter buttons functionality, e.g. when the selected option value = Firefuels then display items with a class of fireFuels
 
