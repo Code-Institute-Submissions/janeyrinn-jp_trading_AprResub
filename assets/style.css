@@ -274,26 +274,17 @@ a.nav-link.hvr-underline-from-center::before {
     margin-top: 10px;
 }
 
-#toggle-local {
-    display: none;
-}
-
-#toggle-del {
-    display: none;
-}
-
-#toggle-orders {
-    display: none;
-}
-
-#toggle-quality {
-    display: none;
-}
-
 .icon:hover {
     color: #F2E205;
 }
 
+.icon-inner-text {
+    display: none;
+}
+
+.icon:hover + .icon-inner-text {
+    display: block;
+}
 
 /*----------------------------------------------------------PRODUCTS PAGE*/
 
