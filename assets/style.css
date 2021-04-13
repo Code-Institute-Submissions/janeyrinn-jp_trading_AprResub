@@ -253,6 +253,14 @@ a.nav-link.hvr-underline-from-center::before {
 }
 }
 
+#company-description {
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 40px;
+}
+
 /*-------------------------- HOME PAGE : ICONS */
 
 #icons-container {
