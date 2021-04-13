@@ -106,7 +106,7 @@ function validateForm() {
   }
   // if statement validates against empty input, non number values and length of 10 digits only
   if (phone.value == "" || isNaN(phone.value) || phone.value.length != 10) {
-    alert("Mobile Number required");
+    alert("Mobile number required (10 digits)");
     phone.focus();
     return false;
   }
