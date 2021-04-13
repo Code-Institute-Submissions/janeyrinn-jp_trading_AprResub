@@ -313,10 +313,6 @@ a.nav-link.hvr-underline-from-center::before {
     z-index: 1;
 }
 
-.search-container-text:hover {
-    color: #F2E205;
-} 
-
 .filter-btn {
     font-style: italic;
     padding: 6px;
