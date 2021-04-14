@@ -44,16 +44,29 @@ function sendMail(contactForm) {
 
 //Below validates the name so that it must contain more than an escape/space 
 
-function validateName() {
+function validateContactForm() {
+  var name = document.getElementById("name");
+  var emailaddress = document.getElementById("emailaddress");
+  var message = document.getElementById("generalquery");
 
-    var x = document.getElementById("name").value;
-    var nameFail = "Name must be filled out";
-    var namePass = "";
+  // if statement validates against empty input and special characters
+  if (name.value == "" || !/^[\w ]*[^\W_][\w ]*$/.test(name.value)) {
+    alert("First name required, no special characters or spaces permitted");
+    name.focus();
+    return false;
+  }
 
-    if (x == " ") {
-        document.getElementById("nameMsg").innerHTML = nameFail;
-    }
-    else {
-        document.getElementById("nameMsg").innerHTML = namePass;
-    }
+  // if statement validates against empty input
+  if (emailaddress.value == "") {
+    alert("Email required");
+    name.focus();
+    return false;
+  }
+
+  if (message.value == ""|| message.value == " " ) {
+    alert("Please enter your enquiry");
+    message.focus();
+    return false;
+  }
+  return true;
 }
