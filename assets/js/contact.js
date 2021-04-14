@@ -50,8 +50,8 @@ function validateContactForm() {
   var message = document.getElementById("generalquery");
 
   // if statement validates against empty input and special characters
-  if (name.value == "" || !/^[\w ]*[^\W_][\w ]*$/.test(name.value)) {
-    alert("First name required, no special characters or spaces permitted");
+  if (name.value == "" || name.value== " ") {
+    alert("First name required");
     name.focus();
     return false;
   }

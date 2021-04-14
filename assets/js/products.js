@@ -105,14 +105,14 @@ function validateForm() {
   var quantity = document.getElementById("quantity");
 
   // if statement validates against empty input and special characters
-  if (name.value == "" || !/^[a-zA-Z]*$/g.test(name.value)) {
+  if (name.value == "" || name.value== " ") {
     alert("First name required, no special characters or spaces permitted");
     name.focus();
     return false;
   }
   // if statement validates against empty input
   if (emailaddress.value == "") {
-    alert("Email Required");
+    alert("Email required");
     name.focus();
     return false;
   }
@@ -123,7 +123,7 @@ function validateForm() {
     return false;
   }
   // if statement validates against empty input and special characters
-  if (product.value == "" || !/^[a-zA-Z\s]*$/g.test(product.value) || product.value == "Please select") {
+  if (product.value == "" || product.value == "Please select") {
     alert("Product type required");
     product.focus();
     return false;
