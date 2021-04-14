@@ -435,6 +435,10 @@ a.nav-link.hvr-underline-from-center::before {
     font-family: 'Montserrat', sans-serif;
 }
 
+.form-control {
+	border: solid #000000 3px;
+}
+
 .form-control:hover {
 	border: solid #F2E205 3px;
 }
