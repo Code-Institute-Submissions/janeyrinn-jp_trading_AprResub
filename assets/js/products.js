@@ -58,6 +58,13 @@ var currentBtnClickListener = function () {
   this.className += " active";
 };
 
+/*Below function auto-populates "Product Type" input field in the order form when
+a "ORDER NOW" link is clicked on a product card. The product type specific to the card will show in the input field*/
+
+function orderProductType(product) {
+  document.getElementById("product").value = product;
+}
+
 //EmailJS SDK Code: Sends an order email to business owner
 // Code learned and customized from code used by Matt Rudge in "Using EmailJS" CI Tutuorial
 
@@ -81,6 +88,11 @@ function sendMail(contactForm) {
       }
     );
   return false;
+}
+
+//Below will reset the input fields in the form after click
+function resetForm() {
+    document.getElementById("orderForm").reset();
 }
 
 //Below validates the Order Form
@@ -111,7 +123,7 @@ function validateForm() {
     return false;
   }
   // if statement validates against empty input and special characters
-  if (product.value == "" || !/^[a-zA-Z\s]*$/g.test(product.value)) {
+  if (product.value == "" || !/^[a-zA-Z\s]*$/g.test(product.value) || product.value == "Please select") {
     alert("Product type required");
     product.focus();
     return false;
@@ -138,9 +150,4 @@ function validateQuantity() {
   document.getElementById("quantityMsg").innerHTML = txt;
 }
 
-/*Below function auto-populates "Product Type" input field in the order form when
-a "ORDER NOW" link is clicked on a product card. The product type specific to the card will show in the input field*/
 
-function orderProductType(product) {
-  document.getElementById("product").value = product;
-}

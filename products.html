@@ -377,7 +377,7 @@
     </section>
 
     <!--Start Order Form-->
-    <section class="form-gen" id="order-form">
+    <section class="form-gen" id="orders">
       <div class="container-fluid">
         <div class="row justify-content-center">
           <div class="col-12">
@@ -389,6 +389,7 @@
                   <!--sendMail() will send the form to an email address via EmailJS, validateForm() will check input fields match criteria-->
                   <form
                     name="orderForm"
+                    id="orderForm"
                     onsubmit="return (validateForm() && sendMail(this))"
                   >
                     <div class="form-group">
@@ -501,6 +502,7 @@
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
+                onclick="resetForm()"
               >
                 Close
               </button>
@@ -527,6 +529,7 @@
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
+                onclick="resetForm()"
               >
                 Close
               </button>
