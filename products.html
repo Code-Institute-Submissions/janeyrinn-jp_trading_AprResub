@@ -231,10 +231,10 @@
                 alt="coop-image"
               />
               <div class="card-body">
-                <h4 class="card-title productType">Coops</h4>
+                <h4 class="card-title productType">Coop</h4>
                 <p class="card-text">€200</p>
                 <!--onclick function will auto-populate product type field in order form-->
-                <a href="#order-form" onclick="orderProductType('Bird Coop')"
+                <a href="#order-form" onclick="orderProductType('Coop')"
                   >ORDER NOW</a
                 >
               </div>
@@ -249,10 +249,10 @@
                 alt="table-image"
               />
               <div class="card-body">
-                <h4 class="card-title productType">Tables</h4>
+                <h4 class="card-title productType">Table</h4>
                 <p class="card-text">€150</p>
                 <!--onclick function will auto-populate product type field in order form-->
-                <a href="#order-form" onclick="orderProductType('Picnic Table')"
+                <a href="#order-form" onclick="orderProductType('Table')"
                   >ORDER NOW</a
                 >
               </div>
@@ -389,7 +389,7 @@
                   <!--sendMail() will send the form to an email address via EmailJS, validateForm() will check input fields match criteria-->
                   <form
                     name="orderForm"
-                    onsubmit="return validateForm(); sendMail(this);"
+                    onsubmit="return (validateForm() && sendMail(this))"
                   >
                     <div class="form-group">
                       <input
@@ -424,13 +424,27 @@
                       <label class="order-form-text" for="product"
                         >Product Type:</label
                       >
-                      <input
+                      <select
                         name="product"
                         id="product"
                         type="text"
                         class="form-control inline-form"
                         value=""
-                      />
+                      >
+                      <option value="Please select">Please select</option>
+                        <option value="Polish Coal">Polish Coal</option>
+                        <option value="Firewood">Firewood</option>
+                        <option value="Irish Peat">Peat</option>
+                        <option value="Kindling">Kindling</option>
+                        <option value="Coop">Coop</option>
+                        <option value="Table">Table</option>
+                        <option value="Swing Seat">Swing Seat</option>
+                        <option value="Swing Set">Swing Set</option>
+                        <option value="Harvest Gold">Harvest Gold</option>
+                        <option value="Tipperary Blue">Tipperary Blue</option>
+                        <option value="Wexford Sand">Wexford Sand</option>
+                        <option value="Wicklow Plum">Wicklow Plum</option>
+                      </select>
 
                       <label class="order-form-text" for="quantity"
                         >Choose a Quantity:</label
