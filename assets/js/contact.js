@@ -42,6 +42,11 @@ function sendMail(contactForm) {
     return false;
 }
 
+//Below will reset the input fields in the form after clicking the modal button
+function resetForm() {
+    document.getElementById("orderForm").reset();
+}
+
 //Below validates the name so that it must contain more than an escape/space 
 
 function validateContactForm() {
