@@ -121,7 +121,7 @@
           >
             <!--onclick functions below will filter product category display on clicking-->
             <button
-              class="btn active option"
+              class="btn activeactive   option"
               onclick="filterCategories('allProducts')"
             >
               All Products
@@ -528,6 +528,31 @@
                 class="btn btn-secondary"
                 data-dismiss="modal"
                 onclick="resetForm()"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="modal fade" id="validationModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Information Invalid</h5>
+            </div>
+            <div class="modal-body">
+              <p id="validationMessage">
+              </p>
+            </div>
+            <div class="modal-footer">
+              <!--resetForm() function will clear form fields after submission-->
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
               >
                 Close
               </button>
