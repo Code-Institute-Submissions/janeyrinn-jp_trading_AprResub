@@ -449,7 +449,7 @@
                       <label class="order-form-text" for="quantity"
                         >Choose a Quantity:</label
                       >
-                      <!--onkeyup function will validate quantity entered-->
+                      <!--validateQuantity function will validate quantity entered against a limit-->
                       <input
                         name="quantity"
                         type="number"
@@ -497,12 +497,12 @@
               <p>A member of our team will contact you shortly.</p>
             </div>
             <div class="modal-footer">
+              <!--resetForm() function will clear form fields after submission-->
               <button
                 type="button"
                 class="btn btn-secondary"
                 data-dismiss="modal"
-                onclick="resetForm()"
-              >
+                onclick="resetForm()">
                 Close
               </button>
             </div>
@@ -524,6 +524,7 @@
               </p>
             </div>
             <div class="modal-footer">
+              <!--resetForm() function will clear form fields after submission-->
               <button
                 type="button"
                 class="btn btn-secondary"

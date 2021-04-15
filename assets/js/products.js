@@ -90,9 +90,9 @@ function sendMail(contactForm) {
   return false;
 }
 
-//Below will reset the input fields in the form after click
+//Below will reset the input fields in the form after clicking the modal button
 function resetForm() {
-    document.getElementById("orderForm").reset();
+  document.getElementById("orderForm").reset();
 }
 
 //Below validates the Order Form
@@ -105,7 +105,7 @@ function validateForm() {
   var quantity = document.getElementById("quantity");
 
   // if statement validates against empty input and special characters
-  if (name.value == "" || name.value== " ") {
+  if (name.value == "" || name.value == " ") {
     alert("First name required, no special characters or spaces permitted");
     name.focus();
     return false;
@@ -149,5 +149,3 @@ function validateQuantity() {
   }
   document.getElementById("quantityMsg").innerHTML = txt;
 }
-
-
