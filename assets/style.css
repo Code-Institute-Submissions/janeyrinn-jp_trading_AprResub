@@ -21,12 +21,12 @@ h3 {
     font-family: 'Sintony', sans-serif;
     font-weight: 400;
     margin-top: 2rem;
-    margin-bottom: 2rem;
 }   
 
 h4, h5, h6 {
     font-family: 'Sintony', sans-serif;
     font-weight: 400;
+    font-size: 1rem;
 }
 
 .hr-med {
@@ -249,7 +249,7 @@ a.nav-link.hvr-underline-from-center::before {
     padding: 10px;
     font-weight: 300;
     z-index: 1;
-    font-size: 35px;
+    font-size: 30px;
 }
 }
 
@@ -259,6 +259,12 @@ a.nav-link.hvr-underline-from-center::before {
     text-align: center;
     margin: 0px auto;
     padding: 40px;
+}
+
+.company-description {
+    color: #F2E205;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 /*-------------------------- HOME PAGE : ICONS */
@@ -305,6 +311,7 @@ a.nav-link.hvr-underline-from-center::before {
     width: 100%;
     padding-top: 40px;
 }
+
 .search-container{
     background-color: black;
     color: white;
@@ -322,7 +329,6 @@ a.nav-link.hvr-underline-from-center::before {
     background-color: white;
     font-weight: bold;
 }
-
 
 .filter-btn:hover {
     background-color: #F2E205;
@@ -395,7 +401,6 @@ a.nav-link.hvr-underline-from-center::before {
 }
 }
 
-
 .hours-spacing{
     padding-top: 50px;
 }
@@ -441,7 +446,7 @@ a.nav-link.hvr-underline-from-center::before {
 
 /*-------------------------- FORM : CONTACT FORM */
 
-#contact-form{
+#contact-form-section{
     padding-top: 40px;
     background: rgba(0,0,0,0.2)url(images/hero.jpg) no-repeat;
     background-position: center;
@@ -461,7 +466,7 @@ a.nav-link.hvr-underline-from-center::before {
 /* Code from Stack Overflow to fix pixelation on Safari*/
 
 @supports (-webkit-touch-callout: none) { 
-    #contact-form {
+    #contact-form-section {
     background-attachment: scroll; 
 } 
 }
