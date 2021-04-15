@@ -100,7 +100,7 @@
     </section>
 
     <!--Start Contact Form-->
-    <section class="form-gen" id="contact-form">
+    <section class="form-gen" id="contact-form-section">
         <div class="container fluid">
             <div class="row justify-content-center">
                 <div class="col-12">
@@ -110,7 +110,7 @@
                         <div class="row">
                             <div class="col-sm-12 form rounded">
                                 <!--onsubmit function will send the message to business email-->
-                                <form onsubmit="return (validateContactForm() && sendMail(this))">
+                                <form onsubmit="return (validateContactForm() && sendMail(this))" id="contact-form">
                                     <div class="form-group">
                                         <input name="name" type="text" class="form-control" id="name"
                                             placeholder="Your Name" />
@@ -146,6 +146,7 @@
                         <p>A member of our team will contact you shortly.</p>
                     </div>
                     <div class="modal-footer">
+                        <!--resetForm functions will clear form fields after clicking the modal close button-->
                         <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="resetForm()">Close</button>
                     </div>
                 </div>
@@ -163,6 +164,7 @@
                         <p>Please contact our office directly on 086 1234 567</p>
                     </div>
                     <div class="modal-footer">
+                        <!--resetForm functions will clear form fields after clicking the modal close button-->
                         <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="resetForm()">Close</button>
                     </div>
                 </div>
