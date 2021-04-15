@@ -56,22 +56,29 @@ function validateContactForm() {
 
   // if statement validates against empty input and special characters
   if (name.value == "" || name.value == " ") {
-    alert("First name required");
+    errorModal("Name required");
     name.focus();
     return false;
   }
 
   // if statement validates against empty input
   if (emailaddress.value == "") {
-    alert("Email required");
+    errorModal("Email required");
     name.focus();
     return false;
   }
 
   if (message.value == "" || message.value == " ") {
-    alert("Please enter your enquiry");
+    errorModal("Please enter your enquiry");
     message.focus();
     return false;
   }
   return true;
+}
+
+// Below will change the error message in the validation modal
+
+function errorModal(errMsg) {
+  document.getElementById("validationMessage").innerHTML = errMsg;
+  $("#validationModal").modal("show");
 }
