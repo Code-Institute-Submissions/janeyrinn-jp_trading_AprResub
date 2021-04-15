@@ -49,14 +49,13 @@ var searchCategories = document.getElementById("search-categories");
 var option = searchCategories.getElementsByClassName("option");
 
 for (var i = 0; i < option.length; i++) {
-  option[i].addEventListener("click", currentBtnClickListener);
-}
-
-var currentBtnClickListener = function () {
+  option[i].addEventListener("click", function () {
   var current = searchCategories.getElementsByClassName("active");
   current[0].className = current[0].className.replace(" active", "");
   this.className += " active";
-};
+
+});
+}
 
 /*Below function auto-populates "Product Type" input field in the order form when
 a "ORDER NOW" link is clicked on a product card. The product type specific to the card will show in the input field*/
