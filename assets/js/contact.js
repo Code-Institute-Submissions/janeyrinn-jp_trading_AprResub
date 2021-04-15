@@ -55,7 +55,7 @@ function validateContactForm() {
   var message = document.getElementById("generalquery");
 
   // if statement validates against empty input and special characters
-  if (name.value == "" || name.value == " ") {
+  if (name.value.trim() == "") {
     errorModal("Name required");
     name.focus();
     return false;
@@ -68,7 +68,7 @@ function validateContactForm() {
     return false;
   }
 
-  if (message.value == "" || message.value == " ") {
+  if (message.value.trim() == "") {
     errorModal("Please enter your enquiry");
     message.focus();
     return false;
