@@ -101,7 +101,7 @@ per page, all pages will have a 'sticky' navigation bar at the top and a small c
 **Information Architecture**
 
 The home page will consist of a large hero image with an animated text introduction of the 
-business. This will describe the business and the services available. Icons traditionally
+business and a brief company description. This will describe the business and the services available. Icons traditionally
 associated with the services offered will be displayed lower down and will reinforce
 this information allowing the information to be easily assimilated by the user.
 
