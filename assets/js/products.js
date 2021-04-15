@@ -106,35 +106,42 @@ function validateForm() {
 
   // if statement validates against empty input and special characters
   if (name.value.trim() == "") {
-    alert("First name required, no special characters or spaces permitted");
+    errorModal("Name required");
     name.focus();
     return false;
   }
   // if statement validates against empty input
   if (emailaddress.value.trim() == "") {
-    alert("Email required");
+    errorModal("Email required");
     name.focus();
     return false;
   }
   // if statement validates against empty input, non number values and length of 10 digits only
   if (phone.value == "" || isNaN(phone.value) || phone.value.length != 10) {
-    alert("Mobile number required (10 digits)");
+    errorModal("Mobile number required (10 digits)");
     phone.focus();
     return false;
   }
   // if statement validates against empty input and special characters
   if (product.value == "" || product.value == "Please select") {
-    alert("Product type required");
+    errorModal("Product type required");
     product.focus();
     return false;
   }
   // if statement validates against empty input
   if (quantity.value == "") {
-    alert("Quantity less than or equal to 10 required");
+    errorModal("Quantity less than or equal to 10 required");
     quantity.focus();
     return false;
   }
   return true;
+}
+
+// Below will change the error message for the validation modal
+
+function errorModal(errMsg) {
+  document.getElementById("validationMessage").innerHTML = errMsg;
+  $("#validationModal").modal("show");
 }
 
 //Below validates quantity against the max attribute & displays a message if over the max allowed or under the minimum
