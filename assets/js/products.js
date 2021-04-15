@@ -105,13 +105,13 @@ function validateForm() {
   var quantity = document.getElementById("quantity");
 
   // if statement validates against empty input and special characters
-  if (name.value == "" || name.value == " ") {
+  if (name.value.trim() == "") {
     alert("First name required, no special characters or spaces permitted");
     name.focus();
     return false;
   }
   // if statement validates against empty input
-  if (emailaddress.value == "") {
+  if (emailaddress.value.trim() == "") {
     alert("Email required");
     name.focus();
     return false;
