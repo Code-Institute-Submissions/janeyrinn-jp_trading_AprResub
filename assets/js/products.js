@@ -104,8 +104,8 @@ function validateForm() {
   var product = document.getElementById("product");
   var quantity = document.getElementById("quantity");
 
-  // if statement validates against empty input and special characters
-  if (name.value.trim() == "") {
+  // if statement validates against empty input and special characters, regEx snippet found on stack overflow
+  if (name.value.trim() == ""|| !/^[a-zA-Z\s]*$/g.test(name.value)) {
     errorModal("Name required");
     name.focus();
     return false;

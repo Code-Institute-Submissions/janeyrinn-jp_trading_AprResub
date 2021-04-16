@@ -54,9 +54,9 @@ function validateContactForm() {
   var emailaddress = document.getElementById("emailaddress");
   var message = document.getElementById("generalquery");
 
-  // if statement validates against empty input and special characters
-  if (name.value.trim() == "") {
-    errorModal("Name required");
+  // if statement validates against empty input and special characters, regEx snippet found on stack overflow 
+  if (name.value.trim() == ""|| !/^[a-zA-Z\s]*$/g.test(name.value) ) {
+    errorModal("Name required, no special characters");
     name.focus();
     return false;
   }
