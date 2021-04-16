@@ -106,7 +106,7 @@ function validateForm() {
 
   // if statement validates against empty input and special characters, regEx snippet found on stack overflow
   if (name.value.trim() == ""|| !/^[a-zA-Z\s]*$/g.test(name.value)) {
-    errorModal("Name required");
+    errorModal("Name required, no special characters");
     name.focus();
     return false;
   }
