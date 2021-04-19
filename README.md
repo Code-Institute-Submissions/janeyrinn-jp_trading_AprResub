@@ -185,6 +185,7 @@ marketing purposes. A payment feature would also be added to the order form.
 Originally there had not been a plan for an order form, at the time of the creation of the Wire Frames, but I felt the addition added significant value for the 
 consumer and the business. The form has since been added to the products page. 
 Hero images have also been added to the products and contact page after design conception, they improve the aesthetics of each page.
+A brief company introduction was also added to the landing page to increase band identity and clarify the company offering to the consumer
 
 
 ## Features
