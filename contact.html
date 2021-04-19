@@ -109,7 +109,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-12 form rounded">
-                                <!--onsubmit function will send the message to business email-->
+                                <!--onsubmit functions will send the message/mail to business email & validate the form against set criteria-->
                                 <form onsubmit="return (validateContactForm() && sendMail(this))" id="contact-form">
                                     <div class="form-group">
                                         <input name="name" type="text" class="form-control" id="name"
@@ -134,7 +134,7 @@
             </div>
         </div>
     </section>
-    <!--Start of Email JS Sent Successfully/Error Response Modal Messages, taken from Bootstrap-->
+    <!--Start of Email JS 'Sent Successfully/Error Response' Modal Messages, taken from Bootstrap-->
     <section>
         <div class="modal fade" id="successModal" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
@@ -146,7 +146,7 @@
                         <p>A member of our team will contact you shortly.</p>
                     </div>
                     <div class="modal-footer">
-                        <!--resetForm functions will clear form fields after clicking the modal close button-->
+                        <!--resetForm function will clear form fields after clicking the modal close button-->
                         <button type="button" class="btn btn-secondary" data-dismiss="modal"
                             onclick="resetForm()">Close</button>
                     </div>
@@ -173,6 +173,7 @@
             </div>
         </div>
     </section>
+    <!--Start of the Invalid Input Modal-->
     <section>
         <div class="modal fade" id="validationModal" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
