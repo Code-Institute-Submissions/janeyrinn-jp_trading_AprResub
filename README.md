@@ -301,6 +301,7 @@ _General sources of information for structure functionality and styling._
 2. [Youtube](https://www.youtube.com/)
 3. [W3 Schools](https://www.w3schools.com/js/default.asp)
 4. Code Institute, Full Stack Development course material.
+5. [Stack Over Flow](https://stackoverflow.com/)
 
 ## Testing
 
