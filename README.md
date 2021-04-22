@@ -72,7 +72,7 @@ This live site can be accessed [*here*](https://janeyrinn.github.io/jp_trading/)
 | learn about the company background/offering| assess whether it is suitable for my needs/something I would like to support | 
 | filter a list of available products| can save time scrolling and easily find what I need|
 | price check items | quickly assess if the product is good value & cut down on talk time with a salesperson |
-| order online | make purchases out of hours |
+| order online | make orders out of hours |
 | find the trading hours| assess whether they suit my availability |
 | find contact information | call or save it for use later |
 | contact the business on their platform | save time copying email addresses or opening another platform |
