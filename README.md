@@ -76,7 +76,7 @@ This live site can be accessed [*here*](https://janeyrinn.github.io/jp_trading/)
 | find the trading hours| assess whether they suit my availability |
 | find contact information | call or save it for use later |
 | contact the business on their platform | save time copying email addresses or opening another platform |
-| find their location | plan a trip to visit the store or asses if they are suitable suppliers |
+| find their location | plan a trip to visit the store or assess if they are suitable suppliers |
 
 ### Business Objective
 
